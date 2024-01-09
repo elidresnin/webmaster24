@@ -6,6 +6,7 @@ import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
 import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
+import CenteredBlogCard from "../../examples/cards/blogCards/CenteredBlogCard.vue";
 
 //Vue Material Kit 2 components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
@@ -20,7 +21,8 @@ import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
-import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import vueMkHeader from "@/assets/img/vue-mk-header.jpeg";
+import solar from "@/assets/img/solar.jpg"
 import wavesWhite from "@/assets/img/waves-white.svg";
 import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
 import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
@@ -51,7 +53,7 @@ onUnmounted(() => {
   </div>
   <Header>
     <div
-      class="page-header min-vh-75"
+      class="page-header min-vh-90"
       :style="`background-image: url(${vueMkHeader})`"
       loading="lazy"
     >
@@ -59,14 +61,13 @@ onUnmounted(() => {
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
-              class="text-white pt-3 mt-n5 me-2"
+              class="text-grey pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              Greenify
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              Explore cost-effective options, discover tax incentives, and join us in building a cleaner, greener future for all.
             </p>
           </div>
         </div>
@@ -75,27 +76,16 @@ onUnmounted(() => {
   </Header>
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-    <PresentationCounter />
+    <!-- <PresentationCounter />
     <PresentationInformation />
     <PresentationExample :data="data" />
-    <PresentationPages />
+    <PresentationPages /> -->
     <BuiltByDevelopers />
 
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <FilledInfoCard
-            class="p-4"
-            :color="{ text: 'white', background: 'bg-gradient-success' }"
-            :icon="{ component: 'flag', color: 'white' }"
-            title="Getting Started"
-            description="Check the possible ways of working with our product and the necessary files for building your own project."
-            :action="{
-              route:
-                'https://www.creative-tim.com/learning-lab/vue/overview/material-kit/',
-              label: { text: 'Let\'s start', color: 'white' }
-            }"
-          />
+          
         </div>
         <div class="col-lg-4">
           <FilledInfoCard

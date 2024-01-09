@@ -11,10 +11,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Coded Elements"
-                description="From buttons, to inputs, navbars, alerts or cards, you are
-                  covered"
-                :count="70"
+                title="Customers"
+                description="We give customers the knowledge and resources needed to embrace green energy solutions and create a more sustainable home."
+                :count="100000"
                 suffix="+"
                 :duration="3000"
                 divider="vertical"
@@ -23,10 +22,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Design Blocks"
-                description="Mix the sections, change the colors and unleash your
-                  creativity"
-                :count="15"
+                title="Particpating Energy Providors"
+                description="We collaborate with forward-thinking energy providers, collectively contributing to a greener grid and advancing the transition towards sustainable and eco-friendly power sources."
+                :count="3000"
                 suffix="+"
                 :duration="3000"
                 divider="vertical"
@@ -35,10 +33,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4">
               <DefaultCounterCard
                 color="success"
-                title="Pages"
-                description="Save 3-4 weeks of work when you use our pre-made pages for
-                  your website"
-                :count="4"
+                title="Innovative Solutions"
+                description="We use innovative and practical energy solutions, empowering individuals to adopt sustainable practices and play a vital role in shaping a cleaner and brighter future."
+                :count="50"
                 :duration="3000"
               />
             </div>
