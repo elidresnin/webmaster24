@@ -11,8 +11,7 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
             100,000 Real People
           </h2>
           <p class="lead">
-            Many Fortune 500 companies, startups, universities and governmental
-            institutions love Creative Tim's products.
+            Hundreds of thousands of people have trust Greenify to provide sustainable energy solutions.
           </p>
         </div>
       </div>
