@@ -8,7 +8,7 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
         <div class="col-lg-6 mx-auto text-center">
           <h2 class="mb-0">Trusted by over</h2>
           <h2 class="text-gradient text-success mb-3">
-            1,679,477+ web developers
+            100,000 Real People
           </h2>
           <p class="lead">
             Many Fortune 500 companies, startups, universities and governmental
@@ -20,69 +20,26 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
         <DefaultReviewCard
           name="Nick Willever"
           date="1 day ago"
-          review='"This is an excellent product, the documentation is excellent and
-          helped me get things done more efficiently."'
+          review='"Thanks to Greenify, our home has become a beacon of sustainability, with their insightful guides and recommendations making our transition to clean energy a seamless and rewarding experience."'
           :rating="5.0"
         />
         <DefaultReviewCard
           class="ms-md-auto"
           color="bg-gradient-success"
-          name="Shailesh Kushwaha"
+          name="Ethan Quan"
           date="1 week ago"
-          review='"I found solution to all my design needs from Creative Tim. I
-                  use them as a freelancer in my hobby projects for fun! And its
-                  really affordable, very humble guys !!!"'
+          review='"Choosing Greenify was a game-changer for our household; their expertise in solar solutions not only saved us money but also fueled our commitment to a greener, more environmentally conscious lifestyle."'
           :rating="5.0"
         />
 
         <DefaultReviewCard
           name="Samuel Kamuli"
           date="3 weeks ago"
-          review='"Great product. Helped me cut the time to set up a site. I
-                  used the components within instead of starting from scratch. I
-                  highly recommend for developers who want to spend more time on
-                  the backend!."'
+          review='"With the invaluable guidance from Greenify, we transformed our house into an eco-friendly haven, embracing solar solutions that not only reduced our carbon footprint but also significantly lowered our energy bills."'
           :rating="5.0"
         />
       </div>
       <hr class="horizontal dark my-5" />
-      <div class="row">
-        <div class="col-lg-2 col-md-4 col-6 ms-auto">
-          <img
-            class="w-100 opacity-6"
-            src="@/assets/img/logos/gray-logos/logo-apple.svg"
-            alt="Logo"
-          />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img
-            class="w-100 opacity-6"
-            src="@/assets/img/logos/gray-logos/logo-facebook.svg"
-            alt="Logo"
-          />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img
-            class="w-100 opacity-6"
-            src="@/assets/img/logos/gray-logos/logo-nasa.svg"
-            alt="Logo"
-          />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 ms-lg-0 ms-md-auto">
-          <img
-            class="w-100 opacity-6"
-            src="@/assets/img/logos/gray-logos/logo-vodafone.svg"
-            alt="Logo"
-          />
-        </div>
-        <div class="col-lg-2 col-md-4 col-6 me-md-auto mx-md-0 mx-auto">
-          <img
-            class="w-100 opacity-6"
-            src="@/assets/img/logos/gray-logos/logo-digitalocean.svg"
-            alt="Logo"
-          />
-        </div>
-      </div>
     </div>
   </section>
 </template>

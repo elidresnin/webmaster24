@@ -89,14 +89,14 @@ export default {
               v-for="{ image, title, subtitle, route, pro } in items"
               :key="title"
             >
-              <ExampleCard
+              <!-- <ExampleCard
                 class="min-height-160 shadow-lg mt-4"
                 :image="image"
                 :title="title"
                 :subtitle="subtitle"
                 :route="route"
                 :pro="pro"
-              />
+              /> -->
             </div>
           </div>
         </div>
