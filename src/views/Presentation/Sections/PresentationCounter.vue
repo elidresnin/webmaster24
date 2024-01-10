@@ -11,10 +11,10 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Customers"
-                description="We give customers the knowledge and resources needed to embrace green energy solutions and create a more sustainable home."
-                :count="100000"
-                suffix="+"
+                title="of home in the US are powered by renewable sources."
+                description="in 2024, according to the USEIA"
+                :count="21"
+                suffix="%"
                 :duration="3000"
                 divider="vertical"
               />
@@ -22,10 +22,10 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Particpating Energy Providors"
-                description="We collaborate with forward-thinking energy providers, collectively contributing to a greener grid and advancing the transition towards sustainable and eco-friendly power sources."
-                :count="3000"
-                suffix="+"
+                title="Homes powered by renewable sources"
+                description="in 2024, according to the USEIA"
+                :count="64"
+                suffix=" Million"
                 :duration="3000"
                 divider="vertical"
               />
@@ -33,9 +33,9 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4">
               <DefaultCounterCard
                 color="success"
-                title="Innovative Solutions"
-                description="We use innovative and practical energy solutions, empowering individuals to adopt sustainable practices and play a vital role in shaping a cleaner and brighter future."
-                :count="50"
+                title="Renewable Sources used in the US"
+                description="Solar, Wind, Hydroelectric, Biomass, Geothermal"
+                :count="5"
                 :duration="3000"
               />
             </div>

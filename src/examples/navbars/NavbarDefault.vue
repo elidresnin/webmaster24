@@ -15,7 +15,7 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "#",
+      route: { name: 'contactus' },
       color: "bg-gradient-success",
       label: "Contact Us"
     })
@@ -129,13 +129,20 @@ watch(
       >
         <ul class="navbar-nav navbar-nav-hover ms-auto">
           <li class="nav-item dropdown dropdown-hover mx-2">
-            <a
-              href="#"
-              class="nav-link d-flex cursor-pointer align-items-center"
-            >
-             
+            <RouterLink
+              class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+              :class="[
+                (props.transparent && textDark.value) || !props.transparent
+                ? 'text-dark  ms-sm-4'
+                : 'text-white ms-sm-4'
+             ]"
+              :to="{ name: 'about' }"
+              rel="tooltip"
+              title="Designed and Coded by Creative Tim"
+              data-placement="bottom"
+            >     
               About Us
-            </a>
+            </RouterLink>
           </li>
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
@@ -166,10 +173,12 @@ watch(
               <div class="d-none d-lg-block">
                 <ul class="list-group">
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="#"
-                    >
+                    <RouterLink class="navbar-brand d-none d-md-block" :class="[
+                      (props.transparent && textDark.value) || !props.transparent
+                        ? 'text-dark ms-sm-4'
+                        : 'text-white ms-sm-4'
+                    ]" :to="{ name: 'about' }" rel="tooltip" title="Designed and Coded by Creative Tim"
+                      data-placement="bottom">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
@@ -178,28 +187,32 @@ watch(
                       <span class="text-sm"
                         >Explore our most common Green Energy solution.</span
                       >
-                    </a>
+                    </RouterLink>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="#"
-                    >
+                    <RouterLink class="navbar-brand d-none d-md-block" :class="[
+                      (props.transparent && textDark.value) || !props.transparent
+                        ? 'text-dark ms-sm-4'
+                        : 'text-white ms-sm-4'
+                    ]" :to="{ name: 'about' }" rel="tooltip" title="Designed and Coded by Creative Tim"
+                      data-placement="bottom">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
                         Wind
                       </h6>
                       <span class="text-sm"
-                        >Explore how Wind can power your home.</span
+                        >Explore how Wind can power your home..</span
                       >
-                    </a>
+                    </RouterLink>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      href="#"
-                    >
+                    <RouterLink class="navbar-brand d-none d-md-block" :class="[
+                      (props.transparent && textDark.value) || !props.transparent
+                        ? 'text-dark ms-sm-4'
+                        : 'text-white ms-sm-4'
+                    ]" :to="{ name: 'about' }" rel="tooltip" title="Designed and Coded by Creative Tim"
+                      data-placement="bottom">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
@@ -208,7 +221,7 @@ watch(
                       <span class="text-sm"
                         >Take advanage of the heath emmited by the Earth's core.</span
                       >
-                    </a>
+                    </RouterLink>
                   </li>
                 </ul>
               </div>
@@ -217,13 +230,23 @@ watch(
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
-            <a
+            <RouterLink
+        class="btn btn-sm mb-0"
+        :class="action.color"
+        :to="action.route"
+        rel="tooltip"
+        title=""
+        data-placement="bottom"
+      >
+      {{action.label}}
+      </RouterLink>
+            <!-- <a
               :href="action.route"
               class="btn btn-sm mb-0"
               :class="action.color"
               onclick="smoothToPricing('pricing-soft-ui')"
               >{{ action.label }}</a
-            >
+            > -->
           </li>
         </ul>
       </div>

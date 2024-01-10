@@ -6,12 +6,14 @@ import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "@/examples/footers/FooterDefault.vue";
 
 //image
-import image from "@/assets/img/illustrations/illustration-signin.jpg";
+import image from "@/assets/img/contactpage.jpeg";
 
 //material components
 import MaterialInput from "@/components/MaterialInput.vue";
 import MaterialTextArea from "@/components/MaterialTextArea.vue";
 import MaterialButton from "@/components/MaterialButton.vue";
+import MaterialBadge from "@/components/MaterialBadge.vue";
+
 
 // material-input
 import setMaterialInput from "@/assets/js/material-input";
@@ -26,9 +28,9 @@ onMounted(() => {
         <DefaultNavbar
           :sticky="true"
           :action="{
-            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
+            route: '#',
             color: 'bg-gradient-success',
-            label: 'Buy Now',
+            label: 'Contact Us',
           }"
         />
       </div>
@@ -67,11 +69,10 @@ onMounted(() => {
               </div>
               <div class="card-body">
                 <p class="pb-3">
-                  For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
-                  contact form.
+                  For specific information about green energy offerings in your area, including tax rebates,
+                  pleae use our contact form below. Please include your address along with your local energy provider. 
                 </p>
-                <form id="contact-form" method="post" autocomplete="off">
+                <form id="contact-form"  autocomplete="off">
                   <div class="card-body p-0 my-3">
                     <div class="row">
                       <div class="col-md-6">
@@ -87,7 +88,7 @@ onMounted(() => {
                           class="input-group-static mb-4"
                           type="email"
                           label="Email"
-                          placeholder="hello@creative-tim.com"
+                          placeholder="email@example.com"
                         />
                       </div>
                     </div>
@@ -96,17 +97,17 @@ onMounted(() => {
                         id="message"
                         class="input-group-static mb-4"
                         :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
+                        placeholder="Describe your request in at least 250 characters"
                         >How can we help you?</MaterialTextArea
                       >
                     </div>
                     <div class="row">
                       <div class="col-md-12 text-center">
-                        <MaterialButton
+                        <MaterialBadge
                           variant="gradient"
                           color="success"
                           class="mt-3 mb-0"
-                          >Send Message</MaterialButton
+                          >Send Message</MaterialBadge
                         >
                       </div>
                     </div>

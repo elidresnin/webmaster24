@@ -43,52 +43,31 @@ onUnmounted(() => {
 </script>
 <template>
   <DefaultNavbar
-    :action="{
-      route: 'javascript:;',
-      label: 'Buy Now',
-      color: 'btn-white',
-    }"
     transparent
   />
   <header class="bg-gradient-dark">
     <div
       class="page-header min-vh-75"
-      :style="{ backgroundImage: `url(${bg0})` }"
+      :style="{ backgroundImage: `url('https://www.imf.org/-/media/Images/IMF/FANDD/hero/2022/December/Picture-this-Energy-transition.ashx')` }"
     >
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Work with an amazing <span class="text-white" id="typed"></span>
+              <span class="text-white" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>team</h1>
-              <h1>design</h1>
-              <h1>tool</h1>
+              <h1>Solar</h1>
+              <h1>Wind</h1>
+              <h1>Geothermal</h1>
+              <h1>Hydroelectric</h1>
+              <h1>Biomass</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We’re constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              Learn about the movement behind renewable energy.
             </p>
-            <button type="submit" class="btn bg-white text-dark">
-              Create Account
-            </button>
-            <h6 class="text-white mb-2 mt-5">Find us on</h6>
-            <div class="d-flex justify-content-center">
-              <a href="javascript:;"
-                ><i class="fab fa-facebook text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-instagram text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-twitter text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-google-plus text-lg text-white"></i
-              ></a>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -96,9 +75,32 @@ onUnmounted(() => {
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
     <Information />
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mx-auto my-auto">
+            <h1 class="text-white">
+              <span class="text-white" id="typed"></span>
+            </h1>
+            <div id="typed-strings">
+              <h1>Solar</h1>
+              <h1>Wind</h1>
+              <h1>Geothermal</h1>
+              <h1>Hydroelectric</h1>
+              <h1>Biomass</h1>
+            </div>
+            <p class="lead mb-4 text-white opacity-8">
+              Learn about the movement behind renewable energy.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+
     <AboutTeam />
     <Featuring />
     <Newsletter />
+
   </div>
   <DefaultFooter />
 </template>

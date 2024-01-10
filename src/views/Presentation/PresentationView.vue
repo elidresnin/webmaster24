@@ -54,7 +54,7 @@ onUnmounted(() => {
   </div>
   <Header>
     <div
-      class="page-header min-vh-90"
+      class="page-header min-vh-85"
       :style="`background-image: url(${vueMkHeader})`"
       loading="lazy"
     >
@@ -126,7 +126,7 @@ onUnmounted(() => {
         <div class="row">
           <div class="col-lg-5 ms-auto">
             <h4 class="mb-1">Thank you for your support!</h4>
-            <p class="lead mb-0">We deliver the best sustainale energy solutions.</p>
+            <p class="lead mb-0">We deliver the best sustainable energy solutions.</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
             <MaterialSocialButton
