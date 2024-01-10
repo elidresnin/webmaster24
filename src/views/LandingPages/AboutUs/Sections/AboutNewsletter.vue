@@ -17,8 +17,7 @@ onMounted(() => {
         <div class="col-md-6 m-auto">
           <h4>Be the first to see the news</h4>
           <p class="mb-4">
-            Your company may not be in the software business, but eventually, a
-            software company will be in your business.
+            Hear about the latest innovations in the world of Green Energy right in your inbox.
           </p>
           <div class="row">
             <div class="col-8">
