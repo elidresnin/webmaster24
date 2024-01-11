@@ -45,11 +45,11 @@ defineProps({
         items: [
           {
             name: "About Us",
-            href: "#"
+            href: "/pages/landing-pages/about-us"
           },
           {
             name: "Contact Us",
-            href: "#"
+            href: "/pages/landing-pages/contact-us"
           },
           
         ]
@@ -57,19 +57,19 @@ defineProps({
       {
         name: "Solutions",
         items: [
-          { name: "Solar", href: "#" },
+          { name: "Solar", href: "/pages/solutions/solar" },
           {
             name: "Wind",
-            href: "#"
+            href: "/pages/solutions/wind"
           },
           {
             name: "Geothermal",
-            href: "#"
+            href: "/pages/solutions/geothermal"
           }
         ]
       },
       {
-        name: "Technologys Use",
+        name: "Technologies Use",
         items: [
           {
             name: "Vue.js",

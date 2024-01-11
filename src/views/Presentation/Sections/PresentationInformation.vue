@@ -38,7 +38,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description="Learn how we provide homeowners with the knowledge and resources to embrace a cleaner, more sustainable energy source. Take the first step toward a brighter future – harness the sun's power and transform your home into a beacon of renewable energy"
               :action="[
                 {
-                  route: { name: 'solar' },
+                  route: 'pages/solutions/solar',
                   label: 'Learn More',
                 },
               ]"
@@ -61,7 +61,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description="We guide homeowners through the exciting realm of wind power, offering insights and resources to seamlessly integrate this renewable energy source into their lives. Take a step towards sustainability – let the winds of change fuel your home's energy transformation for a greener tomorrow."
               :action="[
                 {
-                  route: './/sections/page-sections/hero-sections.html',
+                  route: 'pages/solutions/wind',
                   label: 'Learn More',
                 },
               ]"
@@ -83,7 +83,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description="We delve into the possibilities of harnessing the Earth's natural warmth, providing homeowners with insights and resources to embrace an eco-friendly and efficient geothermal energy system. Take a step towards a sustainable home – discover the power beneath your feet and join the geothermal revolution for a greener future."
               :action="[
                 {
-                  route: '#',
+                  route: 'pages/solutions/geothermal',
                   label: 'Learn More',
                 },
               ]"

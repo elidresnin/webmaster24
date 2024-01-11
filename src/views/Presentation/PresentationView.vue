@@ -110,7 +110,7 @@ onUnmounted(() => {
                 </p>
 
                 <a
-                  href="#"
+                  href="/pages/landing-pages/contact-us"
                   class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
                   >Contact Us</a
                 >

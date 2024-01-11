@@ -17,15 +17,15 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
   <header>
     <div class="page-header  min-vh-75 " style="background-color: grey;">
       <div class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block"
-        style="background-image: url(https://www.jups.co.za/wp-content/uploads/2021/10/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpeg); background-size:cover;"
+        style="background-image: url(https://www.energy.gov/sites/default/files/2019/07/f65/25897.jpg); background-size:cover;"
         loading="lazy"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-7 d-flex justify-content-center flex-column">
             <div class="card card-body blur d-flex justify-content-center shadow-lg p-5 mt-5">
-              <h1>Solar</h1>
-              <p class="lead pe-5 me-5">Explore the most common Green Energy solution. Use the sun to power your home.</p>
-              
+              <h1>Wind</h1>
+              <p class="lead pe-5 me-5">Explore the another great Green Energy solution. Use the wind to power your home.</p>
+             
             </div>
           </div>
         </div>
@@ -41,23 +41,22 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="position-relative ms-md-5 me-md-n5">
               <div class="blur-shadow-image">
                 <img class="image-left border-radius-lg img-fluid position-relative top-0 end-0 bg-cover"
-                  src="https://i.guim.co.uk/img/media/a654108994e271738df8e26b0318a9541efc3bd1/0_243_5000_3001/master/5000.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=a44460337a02ed5da45f8561fd1e880c"
+                  src="https://media.wired.com/photos/63227cb600704d14b5ffb891/master/pass/windturbines_Science_GettyImages-1203659530.jpg"
                   alt="merc">
               </div>
             </div>
             <p
               class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mt-4 me-md-n2 mx-auto">
-              “We have this handy fusion reactor in the sky called the sun; you don’t have to do anything, it just works.
-              It shows up every day.”
+              "The two most abundant forms of power on earth are solar and wind, and they're getting cheaper and cheaper." 
               <br>
               <br>
-              <small>-Elon Musk</small>
+              <small>-Ed Begley, Jr.</small>
             </p>
             <!-- Second image on the left side of the article -->
             <div class="position-absolute bottom-0 ms-n2 me-3 start-0 end-2 d-md-block d-none">
               <div class="blur-shadow-image">
                 <img class="image-container border-radius-lg img-fluid position-relative bg-cover"
-                  src="https://www.investopedia.com/thmb/eXmLbIiWNUDfZoAsOaLsKDDh6-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/house-with-solar-panels-181062267-7f895543fc8646e8b0807804f2054b32.jpg"
+                  src="https://www.treehugger.com/thmb/naVuekeUWT-HsmYE1LietPFGCJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wind-turbine-generator-on-house-roof-90967703-b9619befbf954726ae92dfb6154711f2.jpg"
                   alt="steer">
               </div>
             </div>
@@ -68,32 +67,32 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="position-relative ms-n4 mb-5 mt-8 d-md-block d-none">
               <div class="blur-shadow-image">
                 <img class="image-right border-radius-lg img-fluid position-relative bg-cover"
-                  src="https://images.newscientist.com/wp-content/uploads/2023/08/03153215/SEI_166411202.jpg"
+                  src="https://paylesspower.com/wp-content/uploads/2023/10/i1_Is-a-Home-Wind-Turbine-Right-for-You.png"
                   alt="biturbo">
               </div>
             </div>
-            <h3 class="mb-4">Why go Solar?</h3>
-            <p>Residential solar power systems have gained significant popularity in recent years as environmentally
-              conscious homeowners seek sustainable and cost-effective alternatives to traditional energy sources. These
-              systems harness energy from the sun using photovoltaic (PV) panels installed on rooftops or other suitable
-              locations. As sunlight strikes the panels, it stimulates the movement of electrons, generating direct
-              current (DC) electricity. This DC electricity is then converted into alternating current (AC) by an
-              inverter, making it compatible with household appliances and the electric grid.
+            <h3 class="mb-4">Why Wind?</h3>
+            <p>Residential wind power systems have emerged as a viable and sustainable energy solution for environmentally
+              conscious homeowners. These systems typically consist of small-scale wind turbines installed on residential
+              properties to harness the kinetic energy from the wind and convert it into electricity. While not as
+              prevalent as solar power, residential wind power offers an alternative means of generating clean energy.
+              These wind turbines, often mounted on towers, capture the wind's energy and convert it into electrical power
+              through a generator, contributing to a more diversified and eco-friendly energy mix.
             </p>
-            <p>One of the primary advantages of residential solar is its potential to reduce or even eliminate dependence
-              on traditional utility grids. Homeowners can produce their own clean energy, leading to decreased reliance
-              on fossil fuels and a reduced carbon footprint. Additionally, many governments and utilities offer
-              incentives, tax credits, or net metering programs to encourage the adoption of residential solar systems,
-              making the initial investment more accessible and financially appealing. As technology advances, the
-              efficiency of solar panels has increased, and costs have decreased, further contributing to the growing
-              popularity of residential solar power.
+            <p>One of the key advantages of residential wind power is its capacity to produce electricity even during
+              periods of low sunlight, such as at night or during overcast days. This contrasts with solar power,
+              providing homeowners with a more reliable and consistent renewable energy source. As technology continues to
+              advance, smaller and more efficient wind turbines are becoming available for residential use, making it
+              increasingly feasible for homeowners to incorporate wind power into their energy portfolios. Additionally,
+              some regions offer incentives, tax credits, or favorable feed-in tariffs to encourage the adoption of
+              residential wind power, further promoting its accessibility and affordability.
             </p>
-            <p class="mb-0 ">Beyond the environmental and financial benefits, residential solar installations also enhance
-              the value of a property. Homes equipped with solar panels are often viewed as more attractive to potential
-              buyers, and studies have shown that solar-equipped homes tend to sell faster and at higher prices than their
-              non-solar counterparts. As the world shifts towards a more sustainable future, residential solar power
-              stands as a key player in empowering individuals to contribute to cleaner energy practices while enjoying
-              long-term economic advantages.
+            <p class="mb-0 ">Apart from its environmental benefits, residential wind power systems can contribute to
+              energy independence for homeowners. By generating their own electricity, homeowners may reduce their
+              reliance on traditional utility grids and, in some cases, even sell excess power back to the grid. This
+              potential for energy self-sufficiency aligns with the broader global shift towards decentralized and
+              sustainable energy solutions, empowering individuals to actively participate in the transition to a cleaner
+              and more resilient energy future.
             </p>
           </div>
         </div>
@@ -104,7 +103,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-10 ms-auto me-auto text-center">
-          <h1 class="mt-7">Popular Solar Solutions</h1>
+          <h1 class="mt-7">Popular Wind Solutions</h1>
         </div>
       </div>
     </div>
@@ -118,32 +117,32 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="d-block blur-shadow-image">
-                    <img src="https://modernize.com/wp-content/uploads/2016/01/Solar-Panels-Cottage.jpg"
+                    <img
+                      src="https://static.homeguide.com/assets/images/content/homeguide-home-with-solar-panels-and-wind-turbine.jpg"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Hybrid On-Grid/Off-Grid Systems</h2>
-                <p class="mb-2">As the name suggests, a hybrid solar system is simply a combination of on-grid and
-                  off-grid systems. Similar to an on-grid solar system, a hybrid solar power system is connected to the
-                  utility power grid. </p>
+                <h2 class="mb-4">Residenial Wind Turbines</h2>
+                <p class="mb-2">Residential wind turbines offer homeowners a sustainable and independent source of
+                  electricity by harnessing the natural power of the wind. These compact turbines, whether mounted on
+                  rooftops or standalone towers, function as miniature wind farms, capturing the kinetic energy in the air
+                  and converting it into electricity. Suited for a variety of geographical locations, these turbines can
+                  operate in a range of wind conditions, providing a consistent and renewable energy source for individual
+                  households. While factors such as wind speed, local regulations, and available space influence their
+                  efficacy, residential wind turbines contribute to a greener lifestyle, reducing reliance on traditional
+                  power sources and potentially allowing homeowners to become energy contributors to the grid.</p>
 
-                <p>What makes it more flexible is, if you choose to go with this option, your house can draw energy both
-                  from the grid and battery when needed.</p>
+                <p>As technology evolves, modern residential wind turbines address concerns associated with noise and
+                  efficiency, making them increasingly attractive for environmentally conscious homeowners. While initial
+                  costs and maintenance considerations exist, government incentives and rebates can enhance the economic
+                  viability of these systems, positioning residential wind turbines as a promising option for those
+                  looking to take an active role in sustainable energy generation. As the world continues to emphasize the
+                  importance of renewable energy, residential wind turbines stand as a tangible and forward-thinking
+                  solution for homeowners seeking to integrate clean, wind-powered electricity into their daily lives.</p>
 
-                <p>A hybrid solar system sends solar power to your inverter, which then sends energy to power your home.
-                  The extra energy that is not used to power your home goes to the battery for storage. That is why the
-                  battery can provide power to your home when your solar panels are not producing energy.
 
-                </p>
-                <p>If there is not enough energy in the battery, the house will then take electricity from the grid.
-                </p>
-                <p>
-                  Keep in mind that hybrid systems are more expensive than grid-tied systems due to the added battery and
-                  installation costs. On the other hand, they are much cheaper than off-grid solar systems. The main
-                  benefit of a hybrid solar system is that you will have power in any situation.
-                </p>
               </div>
             </div>
           </div>
@@ -153,32 +152,33 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="blur-shadow-image">
-                    <img src="https://image.made-in-china.com/2f0j00AjqRdaOnpLkZ/Split-Pressurized-Solar-Boiler.jpg"
+                    <img src="https://www.globalsources.com/STM/wp-content/uploads/IT_SOLARWINDHYBRIDSYSTEM_1200x800.jpg"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Solar Water Heating</h2>
-                <p class="mb-2">Solar water heating systems, designed to harness the sun's energy for domestic hot water
-                  needs, offer an efficient and eco-friendly alternative. Operating on a similar principle to solar
-                  photovoltaic systems, solar water heaters utilize sunlight to heat a fluid within solar collectors. .
-                </p>
+                <h2 class="mb-4">Hybrid Wind-Solar System</h2>
+                <p class="mb-2">Hybrid wind-solar systems represent a cutting-edge approach to sustainable energy
+                  generation, combining the strengths of both wind and solar technologies to create a more reliable and
+                  efficient power source. In these integrated systems, solar panels and wind turbines work together to
+                  maximize energy production. The complementary nature of wind and solar power enhances overall system
+                  performance by capturing energy during different times of the day and seasons.</p>
 
-                <p>Known for their reliability and energy-saving capabilities, solar water heaters come in various types,
-                  with the most common being passive and active systems. Passive systems rely on natural convection to
-                  circulate the heated water, while active systems use pumps to facilitate fluid movement.</p>
+                <p>During daylight hours or periods of high solar exposure, solar panels generate electricity from
+                  sunlight. Simultaneously, wind turbines harness wind energy, which tends to be more prevalent during the
+                  evenings and in inclement weather. By combining these two renewable sources, hybrid systems offer a more
+                  consistent and dependable energy output, minimizing reliance on external power grids and providing a
+                  stable energy supply even when one source experiences fluctuations.</p>
 
-                <p>A significant advantage of solar water heating lies in its ability to function in conjunction with
-                  traditional water heating systems, offering a hybrid solution. In this setup, the solar water heating
-                  system is integrated with the existing water heater. When solar energy is available, the system heats
-                  the water directly. However, during periods of insufficient sunlight, the conventional water heater
-                  takes over to ensure a continuous and reliable hot water supply.
-                </p>
-                <p>
-                  This flexibility ensures that homeowners benefit from solar energy whenever possible, reducing reliance
-                  on conventional energy sources.
-                </p>
+                <p>AOne of the key advantages of hybrid wind-solar systems is their ability to address the intermittency
+                  issues associated with standalone wind or solar installations. Battery storage can be incorporated into
+                  these systems to store excess energy generated during peak production times for use during low
+                  production periods. This innovative integration not only ensures a more continuous power supply but also
+                  enhances the system's overall efficiency and reliability. As technology advances, hybrid wind-solar
+                  systems continue to gain popularity as a versatile and sustainable solution for individuals and
+                  businesses seeking resilient and eco-friendly energy alternatives.</p>
+
               </div>
             </div>
           </div>
@@ -200,7 +200,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingOne">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    How do residential solar panels work?
+                    How does residential wind power work?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -208,9 +208,10 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Residential solar panels convert sunlight into electricity through the photovoltaic effect. Solar
-                      cells within the panels absorb sunlight, generating direct current (DC) electricity, which is then
-                      converted into alternating current (AC) by an inverter for use in homes.
+                      Residential wind power involves the use of small-scale wind turbines installed on rooftops or
+                      standalone towers. These turbines capture the kinetic energy of the wind, turning it into
+                      electricity through the rotation of blades connected to a generator. The generated electricity is
+                      then either used directly in the home or stored for future use.
                     </p>
                   </div>
                 </div>
@@ -219,7 +220,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingTwo">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    What factors determine the efficiency of a residential solar system?
+                    What factors determine the feasibility of residential wind power?
 
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -229,9 +230,11 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      The efficiency of a residential solar system is influenced by factors such as sunlight exposure,
-                      panel orientation, shading, and the quality of solar panels and inverters. Proper installation and
-                      regular maintenance also contribute to overall efficiency.
+                      Several factors impact the effectiveness of residential wind power, including average wind speed,
+                      local regulations, available space, and the height of the installation. A thorough wind resource
+                      assessment is essential to determine if a specific location is suitable for residential wind
+                      turbines.
+
 
                     </p>
                   </div>
@@ -241,8 +244,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingThree">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    How much space do I need for residential solar panels? <i
-                      class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                    Can residential wind turbines operate in all weather conditions?
+                    <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
                 </h5>
@@ -250,10 +253,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      The space required for residential solar panels depends on factors like energy consumption, panel
-                      efficiency, and local sunlight conditions. On average, a 1 kW solar system may need about 100 square
-                      feet of roof space.
-
+                      Yes, residential wind turbines are designed to operate in a range of weather conditions. They can
+                      generate electricity in varying wind speeds, with some models equipped to withstand adverse weather,
+                      ensuring a continuous power supply.
                     </p>
                   </div>
                 </div>
@@ -262,8 +264,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingFour">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    What is net metering, and how does it benefit residential solar users? <i
-                      class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                    How much energy can a residential wind turbine generate?
+                    <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
                 </h5>
@@ -271,9 +273,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Net metering allows residential solar users to send excess electricity generated back to the grid.
-                      In return, users receive credits on their utility bills. This ensures efficient use of solar power
-                      and cost savings when energy production exceeds consumption.
+                      The energy output of a residential wind turbine depends on factors such as wind speed and turbine
+                      size. On average, a well-placed residential wind turbine can generate a significant portion of a
+                      household's electricity needs.
                     </p>
                   </div>
                 </div>
@@ -282,7 +284,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingFifth">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
-                    What is the lifespan of residential solar panels?
+                    What is the lifespan of a residential wind turbine?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -291,9 +293,11 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Most residential solar panels come with warranties ranging from 25 to 30 years. While panels may
-                      continue to produce energy well beyond this period, their efficiency gradually decreases over time.
-                    </p>
+                      Residential wind turbines typically have a lifespan of 20 to 25 years, but with proper maintenance,
+                      they can continue to function effectively for a more extended period. Regular inspections and upkeep
+                      contribute to maximizing their operational life.</p>
+
+
                   </div>
                 </div>
 
@@ -302,7 +306,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingsix">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseFifth">
-                    How do I finance a residential solar installation?
+                    Are there government incentives for residential wind power installations?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -310,10 +314,10 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
-                    <p>
-                      Financing options for residential solar installations include cash purchases, loans, leases, or
-                      power purchase agreements (PPAs). Many homeowners also take advantage of government incentives and
-                      tax credits to offset installation costs. </p>
+                    <p>Yes, many governments offer incentives, rebates, and tax credits to encourage the adoption of
+                      residential wind power. These financial incentives can significantly offset the initial costs of
+                      purchasing and installing wind turbines.
+                    </p>
                   </div>
                 </div>
 
@@ -322,7 +326,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="heading7">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                    Can residential solar panels function during power outages?
+                    Can residential wind power systems be integrated with the grid?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -331,21 +335,22 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Typically, grid-tied solar systems shut down during power outages to prevent backfeeding electricity
-                      into the grid. However, with the addition of battery storage systems, some setups can provide backup
-                      power to essential appliances, ensuring continuity during outages. </p>
+                      Yes, residential wind power systems can be grid-tied. Excess electricity generated by the wind
+                      turbine can be fed back into the grid, allowing homeowners to receive credits or compensation for
+                      the surplus energy they contribute. This integration ensures a reliable power supply, especially
+                      during periods of low wind activity. </p>
                   </div>
                 </div>
 
               </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  
+
 </div>
 
 <DefaultFooter /></template>

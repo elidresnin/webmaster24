@@ -17,14 +17,15 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
   <header>
     <div class="page-header  min-vh-75 " style="background-color: grey;">
       <div class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block"
-        style="background-image: url(https://www.jups.co.za/wp-content/uploads/2021/10/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpeg); background-size:cover;"
+        style="background-image: url(https://electrek.co/wp-content/uploads/sites/3/2022/11/geothermal-iceland.jpg?quality=82&strip=all&w=1600); background-size:cover;"
         loading="lazy"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-7 d-flex justify-content-center flex-column">
             <div class="card card-body blur d-flex justify-content-center shadow-lg p-5 mt-5">
-              <h1>Solar</h1>
-              <p class="lead pe-5 me-5">Explore the most common Green Energy solution. Use the sun to power your home.</p>
+              <h1>Geothermal</h1>
+              <p class="lead pe-5 me-5">Explore another great Green Energy solution. Use the heat in the Earth to power
+                your home.</p>
               
             </div>
           </div>
@@ -41,7 +42,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="position-relative ms-md-5 me-md-n5">
               <div class="blur-shadow-image">
                 <img class="image-left border-radius-lg img-fluid position-relative top-0 end-0 bg-cover"
-                  src="https://i.guim.co.uk/img/media/a654108994e271738df8e26b0318a9541efc3bd1/0_243_5000_3001/master/5000.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=a44460337a02ed5da45f8561fd1e880c"
+                  src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733301/190129-geothermal-power-plant-al-1102.jpg"
                   alt="merc">
               </div>
             </div>
@@ -57,7 +58,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="position-absolute bottom-0 ms-n2 me-3 start-0 end-2 d-md-block d-none">
               <div class="blur-shadow-image">
                 <img class="image-container border-radius-lg img-fluid position-relative bg-cover"
-                  src="https://www.investopedia.com/thmb/eXmLbIiWNUDfZoAsOaLsKDDh6-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/house-with-solar-panels-181062267-7f895543fc8646e8b0807804f2054b32.jpg"
+                  src="https://www.climatemaster.com/images/18.7cc2eb121759c8cc7ca13148/1607529176517/what%20is%20geothermal%20home.jpg"
                   alt="steer">
               </div>
             </div>
@@ -68,32 +69,29 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="position-relative ms-n4 mb-5 mt-8 d-md-block d-none">
               <div class="blur-shadow-image">
                 <img class="image-right border-radius-lg img-fluid position-relative bg-cover"
-                  src="https://images.newscientist.com/wp-content/uploads/2023/08/03153215/SEI_166411202.jpg"
+                  src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F508964ca-fea6-11e6-a451-b5ddf4ba5eec.jpg?crop=2250%2C1500%2C0%2C0"
                   alt="biturbo">
               </div>
             </div>
-            <h3 class="mb-4">Why go Solar?</h3>
-            <p>Residential solar power systems have gained significant popularity in recent years as environmentally
-              conscious homeowners seek sustainable and cost-effective alternatives to traditional energy sources. These
-              systems harness energy from the sun using photovoltaic (PV) panels installed on rooftops or other suitable
-              locations. As sunlight strikes the panels, it stimulates the movement of electrons, generating direct
-              current (DC) electricity. This DC electricity is then converted into alternating current (AC) by an
-              inverter, making it compatible with household appliances and the electric grid.
+            <h3 class="mb-4">Why Geothermal?</h3>
+            <p>Residential geothermal solutions harness the Earth's natural heat to provide an efficient, sustainable, and
+              eco-friendly source of heating, cooling, and hot water for homes. Unlike traditional heating and cooling
+              systems that rely on burning fossil fuels or electricity, geothermal systems tap into the consistent
+              temperature of the Earth's subsurface. These systems use a network of pipes, known as a ground loop, buried
+              in the ground to transfer heat to or from the Earth, depending on the season.
             </p>
-            <p>One of the primary advantages of residential solar is its potential to reduce or even eliminate dependence
-              on traditional utility grids. Homeowners can produce their own clean energy, leading to decreased reliance
-              on fossil fuels and a reduced carbon footprint. Additionally, many governments and utilities offer
-              incentives, tax credits, or net metering programs to encourage the adoption of residential solar systems,
-              making the initial investment more accessible and financially appealing. As technology advances, the
-              efficiency of solar panels has increased, and costs have decreased, further contributing to the growing
-              popularity of residential solar power.
+            <p>During the winter, the geothermal system absorbs heat from the ground and transfers it into the home,
+              providing warmth. In the summer, the process is reversed, with the system pulling heat from the home and
+              depositing it into the cooler ground, effectively providing air conditioning. This geothermal exchange
+              allows for a highly efficient and constant source of temperature control throughout the year, reducing the
+              reliance on external energy sources.
             </p>
-            <p class="mb-0 ">Beyond the environmental and financial benefits, residential solar installations also enhance
-              the value of a property. Homes equipped with solar panels are often viewed as more attractive to potential
-              buyers, and studies have shown that solar-equipped homes tend to sell faster and at higher prices than their
-              non-solar counterparts. As the world shifts towards a more sustainable future, residential solar power
-              stands as a key player in empowering individuals to contribute to cleaner energy practices while enjoying
-              long-term economic advantages.
+            <p class="mb-0 ">Residential geothermal solutions offer numerous benefits, including lower energy bills,
+              reduced greenhouse gas emissions, and increased home comfort. While the initial installation costs may be
+              higher compared to traditional systems, these are often offset by long-term energy savings and potential
+              government incentives. With advancements in technology and growing environmental awareness, geothermal
+              solutions continue to gain popularity as an effective and sustainable alternative for homeowners seeking
+              reliable and energy-efficient heating and cooling solutions.
             </p>
           </div>
         </div>
@@ -104,7 +102,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-10 ms-auto me-auto text-center">
-          <h1 class="mt-7">Popular Solar Solutions</h1>
+          <h1 class="mt-7">Popular Geothermal Solutions</h1>
         </div>
       </div>
     </div>
@@ -118,32 +116,30 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="d-block blur-shadow-image">
-                    <img src="https://modernize.com/wp-content/uploads/2016/01/Solar-Panels-Cottage.jpg"
+                    <img src="https://www.energy.gov/sites/default/files/2022-03/shutterstock_1179501688.jpg"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Hybrid On-Grid/Off-Grid Systems</h2>
-                <p class="mb-2">As the name suggests, a hybrid solar system is simply a combination of on-grid and
-                  off-grid systems. Similar to an on-grid solar system, a hybrid solar power system is connected to the
-                  utility power grid. </p>
+                <h2 class="mb-4">Geothermal Heat Pumps</h2>
+                <p class="mb-2">Geothermal heat pumps (GHPs) exemplify a forward-thinking approach to residential climate
+                  control, utilizing the Earth's natural thermal energy for efficient heating and cooling. The heart of a
+                  GHP system lies in its ground loop, a network of pipes buried underground that capitalizes on the
+                  Earth's consistent temperature. In winter, the system extracts heat from the ground to warm the home,
+                  while in summer, it expels excess heat back into the ground to provide cooling. This renewable and
+                  constant heat source allows GHPs to achieve impressive energy efficiencies, significantly reducing
+                  reliance on traditional heating and cooling methods and minimizing environmental impact.</p>
 
-                <p>What makes it more flexible is, if you choose to go with this option, your house can draw energy both
-                  from the grid and battery when needed.</p>
+                <p>The exceptional energy efficiency of geothermal heat pumps not only translates into lower utility bills
+                  for homeowners but also contributes to a greener and more sustainable living. Despite the initial
+                  investment being higher than conventional HVAC systems, the long-term savings, coupled with potential
+                  government incentives, make GHPs an economically viable and environmentally responsible choice. As
+                  technology advances and awareness of eco-friendly alternatives grows, geothermal heat pumps emerge as a
+                  compelling solution for homeowners seeking reliable, energy-efficient, and environmentally conscious
+                  climate control solutions.</p>
 
-                <p>A hybrid solar system sends solar power to your inverter, which then sends energy to power your home.
-                  The extra energy that is not used to power your home goes to the battery for storage. That is why the
-                  battery can provide power to your home when your solar panels are not producing energy.
 
-                </p>
-                <p>If there is not enough energy in the battery, the house will then take electricity from the grid.
-                </p>
-                <p>
-                  Keep in mind that hybrid systems are more expensive than grid-tied systems due to the added battery and
-                  installation costs. On the other hand, they are much cheaper than off-grid solar systems. The main
-                  benefit of a hybrid solar system is that you will have power in any situation.
-                </p>
               </div>
             </div>
           </div>
@@ -153,32 +149,31 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="blur-shadow-image">
-                    <img src="https://image.made-in-china.com/2f0j00AjqRdaOnpLkZ/Split-Pressurized-Solar-Boiler.jpg"
+                    <img src="https://d33wubrfki0l68.cloudfront.net/ece52de121797642d95e774406e964af155b5067/aba5d/static/106e2cfe4463fabf123843ec339812c8/5338b/geothermal-heat-pump.jpg"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Solar Water Heating</h2>
-                <p class="mb-2">Solar water heating systems, designed to harness the sun's energy for domestic hot water
-                  needs, offer an efficient and eco-friendly alternative. Operating on a similar principle to solar
-                  photovoltaic systems, solar water heaters utilize sunlight to heat a fluid within solar collectors. .
+                <h2 class="mb-4">Geothermal Hot Water Systems</h2>
+                <p class="mb-2">Geothermal water heating harnesses the Earth's internal heat to provide a reliable and
+                  energy-efficient source for residential hot water needs. In this system, a geothermal heat pump extracts
+                  heat from the ground or a water source and transfers it to a water heater for domestic use. This process
+                  is remarkably efficient, as the Earth's consistent subsurface temperature allows for consistent water
+                  heating throughout the year. Unlike traditional water heaters that rely on electricity or gas,
+                  geothermal water heating systems significantly reduce energy consumption and contribute to lowering
+                  overall carbon footprints.
                 </p>
 
-                <p>Known for their reliability and energy-saving capabilities, solar water heaters come in various types,
-                  with the most common being passive and active systems. Passive systems rely on natural convection to
-                  circulate the heated water, while active systems use pumps to facilitate fluid movement.</p>
+                <p>One of the standout features of geothermal water heating is its versatility. Whether integrated with a
+                  geothermal heat pump for comprehensive home climate control or employed as a standalone system dedicated
+                  to water heating, this technology offers a sustainable alternative to conventional methods. Homeowners
+                  opting for geothermal water heating not only benefit from reduced energy bills but also align with the
+                  global shift towards environmentally friendly and energy-efficient solutions. As interest in renewable
+                  technologies grows, geothermal water heating stands out as a reliable and eco-conscious choice for
+                  households seeking a sustainable and cost-effective approach to meeting their hot water needs.
+                </p>
 
-                <p>A significant advantage of solar water heating lies in its ability to function in conjunction with
-                  traditional water heating systems, offering a hybrid solution. In this setup, the solar water heating
-                  system is integrated with the existing water heater. When solar energy is available, the system heats
-                  the water directly. However, during periods of insufficient sunlight, the conventional water heater
-                  takes over to ensure a continuous and reliable hot water supply.
-                </p>
-                <p>
-                  This flexibility ensures that homeowners benefit from solar energy whenever possible, reducing reliance
-                  on conventional energy sources.
-                </p>
               </div>
             </div>
           </div>
@@ -200,7 +195,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingOne">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    How do residential solar panels work?
+                    What is geothermal energy?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -208,9 +203,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Residential solar panels convert sunlight into electricity through the photovoltaic effect. Solar
-                      cells within the panels absorb sunlight, generating direct current (DC) electricity, which is then
-                      converted into alternating current (AC) by an inverter for use in homes.
+                      Geothermal energy is a renewable and sustainable form of power derived from the Earth's internal heat. This energy source is harnessed through various technologies to generate electricity or provide heating and cooling for residential, commercial, and industrial applications.
                     </p>
                   </div>
                 </div>
@@ -219,7 +212,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingTwo">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    What factors determine the efficiency of a residential solar system?
+                    How is geothermal energy generated?
 
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -229,9 +222,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      The efficiency of a residential solar system is influenced by factors such as sunlight exposure,
-                      panel orientation, shading, and the quality of solar panels and inverters. Proper installation and
-                      regular maintenance also contribute to overall efficiency.
+                      Geothermal energy is generated by tapping into the Earth's internal heat through the use of geothermal heat pumps or geothermal power plants. The heat from the Earth's interior is transferred to the surface and converted into electricity or used directly for heating and cooling purposes.
 
                     </p>
                   </div>
@@ -241,7 +232,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingThree">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    How much space do I need for residential solar panels? <i
+                    What are the environmental benefits of geothermal energy?<i
                       class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -250,9 +241,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      The space required for residential solar panels depends on factors like energy consumption, panel
-                      efficiency, and local sunlight conditions. On average, a 1 kW solar system may need about 100 square
-                      feet of roof space.
+                      Geothermal energy is environmentally friendly, producing significantly lower greenhouse gas emissions compared to fossil fuels. It has a minimal impact on air quality and water resources, making it a clean and sustainable alternative that helps combat climate change.
 
                     </p>
                   </div>
@@ -262,7 +251,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingFour">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    What is net metering, and how does it benefit residential solar users? <i
+                    Where is geothermal energy most commonly used?<i
                       class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -271,9 +260,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Net metering allows residential solar users to send excess electricity generated back to the grid.
-                      In return, users receive credits on their utility bills. This ensures efficient use of solar power
-                      and cost savings when energy production exceeds consumption.
+                      Geothermal energy is utilized globally, with prominent usage in countries situated along tectonic plate boundaries, such as Iceland, the United States, Philippines, and New Zealand. These regions benefit from abundant geothermal resources.
+
                     </p>
                   </div>
                 </div>
@@ -282,7 +270,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingFifth">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
-                    What is the lifespan of residential solar panels?
+                    Can geothermal energy be used for residential heating and cooling?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -291,8 +279,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Most residential solar panels come with warranties ranging from 25 to 30 years. While panels may
-                      continue to produce energy well beyond this period, their efficiency gradually decreases over time.
+                      Yes, geothermal energy is widely used for residential heating and cooling through geothermal heat pump systems. These systems transfer heat to or from the ground to regulate indoor temperatures efficiently and sustainably.
                     </p>
                   </div>
                 </div>
@@ -302,7 +289,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="headingsix">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseFifth">
-                    How do I finance a residential solar installation?
+                    What is the lifespan of a geothermal power plant?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -311,9 +298,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Financing options for residential solar installations include cash purchases, loans, leases, or
-                      power purchase agreements (PPAs). Many homeowners also take advantage of government incentives and
-                      tax credits to offset installation costs. </p>
+                      Geothermal power plants have a long lifespan, typically exceeding 25 years. With proper maintenance, these plants can operate efficiently for several decades, providing a reliable and consistent source of electricity.</p>
                   </div>
                 </div>
 
@@ -322,7 +307,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <h5 class="accordion-header" id="heading7">
                   <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                    Can residential solar panels function during power outages?
+                    Are there financial incentives for adopting geothermal energy?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
                   </button>
@@ -331,21 +316,19 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Typically, grid-tied solar systems shut down during power outages to prevent backfeeding electricity
-                      into the grid. However, with the addition of battery storage systems, some setups can provide backup
-                      power to essential appliances, ensuring continuity during outages. </p>
+                      Many governments offer financial incentives, tax credits, and rebates to encourage the adoption of geothermal energy systems. These incentives can offset installation costs, making geothermal technologies more economically attractive for homeowners and businesses. </p>
                   </div>
                 </div>
 
               </div>
-          </div>
+            </div>
         </div>
       </div>
     </div>
   </section>
 
 
-  
+
 </div>
 
 <DefaultFooter /></template>

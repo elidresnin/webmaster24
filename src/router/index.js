@@ -24,6 +24,10 @@ import ElProgressBars from "../layouts/sections/elements/progress-bars/ProgressB
 import ElToggles from "../layouts/sections/elements/toggles/TogglesView.vue";
 import ElTypography from "../layouts/sections/elements/typography/TypographyView.vue";
 import SolarView from "../views/LandingPages/Solutions/SolarView.vue";
+import GeoView from "../views/LandingPages/Solutions/GeoView.vue";
+import WindView from "../views/LandingPages/Solutions/WindView.vue";
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -46,6 +50,16 @@ const router = createRouter({
       path: "/pages/solutions/solar",
       name: "solar",
       component: SolarView,
+    },
+    {
+      path: "/pages/solutions/wind",
+      name: "wind",
+      component: WindView,
+    },
+    {
+      path: "/pages/solutions/geothermal",
+      name: "geothermal",
+      component: GeoView,
     },
     {
       path: "/pages/landing-pages/author",

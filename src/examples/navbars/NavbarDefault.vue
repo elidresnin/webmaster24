@@ -200,7 +200,7 @@ watch(
                       (props.transparent && textDark.value) || !props.transparent
                         ? 'text-dark ms-sm-4'
                         : 'text-white ms-sm-4'
-                    ]" :to="{ name: 'about' }" rel="tooltip" title="Designed and Coded by Creative Tim"
+                    ]" :to="{ name: 'wind' }" rel="tooltip" title="Designed and Coded by Creative Tim"
                       data-placement="bottom">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -217,7 +217,7 @@ watch(
                       (props.transparent && textDark.value) || !props.transparent
                         ? 'text-dark ms-sm-4'
                         : 'text-white ms-sm-4'
-                    ]" :to="{ name: 'about' }" rel="tooltip" title="Designed and Coded by Creative Tim"
+                    ]" :to="{ name: 'geothermal' }" rel="tooltip" title="Designed and Coded by Creative Tim"
                       data-placement="bottom">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -246,13 +246,7 @@ watch(
       >
       {{action.label}}
       </RouterLink>
-            <!-- <a
-              :href="action.route"
-              class="btn btn-sm mb-0"
-              :class="action.color"
-              onclick="smoothToPricing('pricing-soft-ui')"
-              >{{ action.label }}</a
-            > -->
+            
           </li>
         </ul>
       </div>
