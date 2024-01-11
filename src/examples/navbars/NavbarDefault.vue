@@ -117,10 +117,16 @@ watch(
         ]"
         :to="{ name: 'presentation' }"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="m"
         data-placement="bottom"
       >
-        Greenify
+        <div
+          class=""
+        >
+        <h3 class="mb-0">Greenify</h3>
+
+        </div>      
+        
       </RouterLink>
   
       <div
@@ -177,15 +183,15 @@ watch(
                       (props.transparent && textDark.value) || !props.transparent
                         ? 'text-dark ms-sm-4'
                         : 'text-white ms-sm-4'
-                    ]" :to="{ name: 'about' }" rel="tooltip" title="Designed and Coded by Creative Tim"
+                    ]" :to="{ name: 'solar' }" rel="tooltip" title="Designed and Coded by Creative Tim"
                       data-placement="bottom">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
                         Solar
                       </h6>
-                      <span class="text-sm"
-                        >Explore our most common Green Energy solution.</span
+                      <span class="text-sm text-dark" 
+                        >Explore the most common Green Energy solution.</span
                       >
                     </RouterLink>
                   </li>
@@ -201,7 +207,7 @@ watch(
                       >
                         Wind
                       </h6>
-                      <span class="text-sm"
+                      <span class="text-sm text-dark"
                         >Explore how Wind can power your home..</span
                       >
                     </RouterLink>
@@ -218,7 +224,7 @@ watch(
                       >
                         Geothermal
                       </h6>
-                      <span class="text-sm"
+                      <span class="text-sm text-dark"
                         >Take advanage of the heath emmited by the Earth's core.</span
                       >
                     </RouterLink>

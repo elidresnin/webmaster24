@@ -38,7 +38,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description="Learn how we provide homeowners with the knowledge and resources to embrace a cleaner, more sustainable energy source. Take the first step toward a brighter future – harness the sun's power and transform your home into a beacon of renewable energy"
               :action="[
                 {
-                  route: '#',
+                  route: { name: 'solar' },
                   label: 'Learn More',
                 },
               ]"
