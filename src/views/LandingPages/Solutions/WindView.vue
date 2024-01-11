@@ -171,7 +171,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   consistent and dependable energy output, minimizing reliance on external power grids and providing a
                   stable energy supply even when one source experiences fluctuations.</p>
 
-                <p>AOne of the key advantages of hybrid wind-solar systems is their ability to address the intermittency
+                <p>One of the key advantages of hybrid wind-solar systems is their ability to address the intermittency
                   issues associated with standalone wind or solar installations. Battery storage can be incorporated into
                   these systems to store excess energy generated during peak production times for use during low
                   production periods. This innovative integration not only ensures a more continuous power supply but also
