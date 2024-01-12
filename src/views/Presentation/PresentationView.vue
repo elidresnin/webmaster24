@@ -5,17 +5,13 @@ import { onMounted, onUnmounted } from "vue";
 import NavbarDefault from "../..//examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../examples/footers/FooterDefault.vue";
 import Header from "../../examples/Header.vue";
-import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
-import CenteredBlogCard from "../../examples/cards/blogCards/CenteredBlogCard.vue";
+
 
 //Vue Material Kit 2 components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 
 // sections
 import PresentationCounter from "./Sections/PresentationCounter.vue";
-import PresentationPages from "./Sections/PresentationPages.vue";
-import PresentationExample from "./Sections/PresentationExample.vue";
-import data from "./Sections/Data/designBlocksData";
 import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
@@ -23,14 +19,7 @@ import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpeg";
-import solar from "@/assets/img/solar.jpg"
 import wavesWhite from "@/assets/img/waves-white.svg";
-import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
-import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
-import logoVue from "@/assets/img/logos/vue.jpg";
-import logoAngular from "@/assets/img/logos/angular.jpg";
-import logoReact from "@/assets/img/logos/react.jpg";
-import logoSketch from "@/assets/img/logos/sketch.jpg";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -53,22 +42,16 @@ onUnmounted(() => {
     </div>
   </div>
   <Header>
-    <div
-      class="page-header min-vh-85"
-      :style="`background-image: url(${vueMkHeader})`"
-      loading="lazy"
-    >
+    <div class="page-header min-vh-85" :style="`background-image: url(${vueMkHeader})`" loading="lazy">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
-            <h1
-              class="text-grey pt-3 mt-n5 me-2"
-              :style="{ display: 'inline-block ' }"
-            >
+            <h1 class="text-grey pt-3 mt-n5 me-2" :style="{ display: 'inline-block ' }">
               Greenify
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Explore cost-effective options, discover tax incentives, and join us in building a cleaner, greener future for all.
+              Explore cost-effective options, discover tax incentives, and join us in building a cleaner, greener future
+              for all.
             </p>
           </div>
         </div>
@@ -80,23 +63,13 @@ onUnmounted(() => {
     <PresentationCounter />
     <BuiltByDevelopers />
     <PresentationInformation />
-  
-    
     <PresentationTestimonials />
-
-    <div
-      class="container-fluid mt-sm-5 border-radius-xl"
-      :style="{
-        background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
-      }"
-    >
-      <div
-        class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-        :style="{
-          backgroundImage: `url(${wavesWhite})`
-        }"
-        loading="lazy"
-      >
+    <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
+      background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
+    }">
+      <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" :style="{
+        backgroundImage: `url(${wavesWhite})`
+      }" loading="lazy">
         <span class="mask bg-gradient-dark"></span>
         <div class="container">
           <div class="row">
@@ -106,14 +79,13 @@ onUnmounted(() => {
                   Are you ready to go Green?
                 </h3>
                 <p class="text-white text-md">
-                  Embark on a sustainable journey with Greenify today. Contact us to find the perfect green energy solutions for your home, and join a community committed to making a positive impact on the environment. Are you ready to go green? Let's make a difference together.
+                  Embark on a sustainable journey with Greenify today. Contact us to find the perfect green energy
+                  solutions for your home, and join a community committed to making a positive impact on the environment.
+                  Are you ready to go green? Let's make a difference together.
                 </p>
 
-                <a
-                  href="/pages/landing-pages/contact-us"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
-                  >Contact Us</a
-                >
+                <a href="/pages/landing-pages/contact-us"
+                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">Contact Us</a>
               </div>
             </div>
           </div>
@@ -129,24 +101,9 @@ onUnmounted(() => {
             <p class="lead mb-0">We deliver the best sustainable energy solutions.</p>
           </div>
           <div class="col-lg-5 me-lg-auto my-lg-auto text-lg-end mt-5">
-            <MaterialSocialButton
-              route="#"
-              component="twitter"
-              color="twitter"
-              label="Tweet"
-            />
-            <MaterialSocialButton
-              route="#"
-              component="facebook-square"
-              color="facebook"
-              label="Share"
-            />
-            <MaterialSocialButton
-              route="#"
-              component="pinterest"
-              color="pinterest"
-              label="Pin it"
-            />
+            <MaterialSocialButton route="#" component="twitter" color="twitter" label="Tweet" />
+            <MaterialSocialButton route="#" component="facebook-square" color="facebook" label="Share" />
+            <MaterialSocialButton route="#" component="pinterest" color="pinterest" label="Pin it" />
           </div>
         </div>
       </div>

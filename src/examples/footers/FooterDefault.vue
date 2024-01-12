@@ -51,7 +51,7 @@ defineProps({
             name: "Contact Us",
             href: "/pages/landing-pages/contact-us"
           },
-          
+
         ]
       },
       {
@@ -78,9 +78,9 @@ defineProps({
           {
             name: "Material UI",
             href: "https://mui.com/"
-  
+
           },
-          
+
         ]
       },
       {
@@ -94,7 +94,7 @@ defineProps({
             name: "Copyright Checklist",
             href: "https://www.creative-tim.com/privacy"
           },
-          
+
         ]
       }
     ]
@@ -108,33 +108,20 @@ defineProps({
         <div class="col-md-3 mb-4 ms-auto">
           <div>
             <a :href="brand.route">
-              <!-- <img :src="brand.logo" class="mb-3 footer-logo" alt="main_logo" /> -->
+             
             </a>
             <h6 class="font-weight-bolder mb-4">{{ brand.name }}</h6>
           </div>
           <div>
             <ul class="d-flex flex-row ms-n3 nav">
-              <li
-                class="nav-item"
-                v-for="{ icon, link } of socials"
-                :key="link"
-              >
-                <a
-                  class="nav-link pe-1"
-                  :href="link"
-                  target="_blank"
-                  v-html="icon"
-                >
+              <li class="nav-item" v-for="{ icon, link } of socials" :key="link">
+                <a class="nav-link pe-1" :href="link" target="_blank" v-html="icon">
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div
-          class="col-md-2 col-sm-6 col-6 mb-4"
-          v-for="{ name, items } of menus"
-          :key="name"
-        >
+        <div class="col-md-2 col-sm-6 col-6 mb-4" v-for="{ name, items } of menus" :key="name">
           <h6 class="text-sm">{{ name }}</h6>
           <ul class="flex-column ms-n3 nav">
             <li class="nav-item" v-for="item of items" :key="item.name">
@@ -150,8 +137,8 @@ defineProps({
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright ©
               {{ new Date().getFullYear() }}
-             Greenify by
-             Team 2061-902
+              Greenify by
+              Team 2061-902
             </p>
           </div>
         </div>

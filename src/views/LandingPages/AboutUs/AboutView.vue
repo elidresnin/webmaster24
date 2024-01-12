@@ -4,10 +4,9 @@ import { onMounted, onUnmounted } from "vue";
 //example components
 import DefaultNavbar from "../../../examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
-import TransparentBlogCard from "../../../examples/cards/blogCards/TransparentBlogCard.vue"
 
 //image
-import bg0 from "@/assets/img/bg9.jpg";
+
 import pollution from "@/assets/img/pollution.jpg";
 import warming from "@/assets/img/windmill.jpg";
 import windsolar from "@/assets/img/wind-solar.jpg";
@@ -19,8 +18,6 @@ import Typed from "typed.js";
 
 //sections
 import Information from "./Sections/AboutInformation.vue";
-import AboutTeam from "./Sections/AboutTeam.vue";
-import Featuring from "./Sections/AboutFeaturing.vue";
 import Newsletter from "./Sections/AboutNewsletter.vue";
 
 const body = document.getElementsByTagName("body")[0];
