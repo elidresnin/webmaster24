@@ -84,7 +84,7 @@ onUnmounted(() => {
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-10 ms-auto me-auto text-center">
-            <h3 class="mt-4">We recognize that the shift to renewable energy is not just a choice but a crucial step in ensuring the
+            <h3 class="mt-4">We recognize that the shift to renewable energy is not just a choice, but a crucial step in ensuring the
               well-being of our planet and future generations.</h3>
           </div>
         </div>

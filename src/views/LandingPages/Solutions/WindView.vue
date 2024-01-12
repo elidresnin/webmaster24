@@ -24,7 +24,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
           <div class="col-lg-7 d-flex justify-content-center flex-column">
             <div class="card card-body blur d-flex justify-content-center shadow-lg p-5 mt-5">
               <h1>Wind</h1>
-              <p class="lead pe-5 me-5">Explore the another great Green Energy solution. Use the wind to power your home.</p>
+              <p class="lead pe-5 me-5">Explore the another great Green Energy solution. Use wind to power your home.</p>
              
             </div>
           </div>
@@ -124,7 +124,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Residenial Wind Turbines</h2>
+                <h2 class="mb-4">Residential Wind Turbines</h2>
                 <p class="mb-2">Residential wind turbines offer homeowners a sustainable and independent source of
                   electricity by harnessing the natural power of the wind. These compact turbines, whether mounted on
                   rooftops or standalone towers, function as miniature wind farms, capturing the kinetic energy in the air

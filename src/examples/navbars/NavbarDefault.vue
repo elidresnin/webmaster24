@@ -163,7 +163,7 @@ watch(
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
                         Wind
                       </h6>
-                      <span class="text-sm text-dark">Explore how Wind can power your home..</span>
+                      <span class="text-sm text-dark">Explore how wind can power your home.</span>
                     </RouterLink>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
@@ -177,7 +177,7 @@ watch(
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
                         Geothermal
                       </h6>
-                      <span class="text-sm text-dark">Take advanage of the heath emmited by the Earth's core.</span>
+                      <span class="text-sm text-dark">Take advantage of the heat emitted by the Earth's core.</span>
                     </RouterLink>
                   </li>
                 </ul>

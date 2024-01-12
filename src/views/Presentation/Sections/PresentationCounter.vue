@@ -11,7 +11,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="of home in the US are powered by renewable sources."
+                title="of homes in the US are powered by renewable sources"
                 description="in 2024, according to the USEIA"
                 :count="21"
                 suffix="%"
@@ -22,7 +22,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="Homes powered by renewable sources"
+                title="Homes can powered by renewable sources"
                 description="in 2024, according to the USEIA"
                 :count="64"
                 suffix=" Million"
@@ -33,7 +33,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4">
               <DefaultCounterCard
                 color="success"
-                title="Renewable Sources used in the US"
+                title="Renewable sources used in the US"
                 description="Solar, Wind, Hydroelectric, Biomass, Geothermal"
                 :count="5"
                 :duration="3000"

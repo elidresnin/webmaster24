@@ -11,7 +11,7 @@ import { RouterLink } from "vue-router";
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ms-lg-5">
-            <h4 class="text-white">According to enviornmenalists,</h4>
+            <h4 class="text-white">According to environmentalists,</h4>
             <h1 class="text-white">Renewable energy is the best way to cut carbon emissions.</h1>
             <p class="lead text-white opacity-8">
               Renewable energy stands out as the most effective strategy for cutting carbon emissions. Sources such as

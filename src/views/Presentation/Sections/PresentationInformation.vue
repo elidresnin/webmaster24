@@ -14,7 +14,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
 
             <h2 class="text-dark mb-0">Explore our Solutions</h2>
             <p class="lead">
-              We make it easier to cut your electic bill while saving the planet at the same time.
+              We make it easier to cut your electric bill while saving the planet at the same time.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               image="https://www.thecooldown.com/wp-content/uploads/2022/09/AQZw0Us0FzycQ941sZ5n-GeFjqY7ZWOik6DRAZr2sI8-1.jpg"
               icon="touch_app"
               title="Geothermal <br /> Energy"
-              description="Take advatage of the heat burried beneth the Earth's surface to lead a sustainable life."
+              description="Take advantage of the heat buried beneath the Earth's surface to lead a sustainable life."
             />
 
             <RotatingCardBack

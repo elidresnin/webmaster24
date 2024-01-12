@@ -16,7 +16,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
           </div>
           <div class="row justify-content-start mt-4">
             <DefaultInfoCard color="info" icon="apps" title="Integrated"
-              description="Renewabele energy sources can integrate with the existing grid, or be totally off grid." />
+              description="Renewable energy sources can integrate with the existing grid, or be totally off grid." />
             <DefaultInfoCard color="info" icon="3p" title="Community"
               description="Join a commuity of people looking to preserve our planet." />
           </div>
