@@ -88,11 +88,11 @@ defineProps({
         items: [
           {
             name: "Plan of Work Log",
-            href: "https://www.creative-tim.com/terms"
+            href: "planofworklog.pdf"
           },
           {
             name: "Copyright Checklist",
-            href: "https://www.creative-tim.com/privacy"
+            href: "cc.pdf"
           },
 
         ]
