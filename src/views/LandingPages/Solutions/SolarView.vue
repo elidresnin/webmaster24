@@ -118,7 +118,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="d-block blur-shadow-image">
-                    <img src="https://modernize.com/wp-content/uploads/2016/01/Solar-Panels-Cottage.jpg"
+                    <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/10/Screen_Shot_2022-10-14_at_11.14.34_AM.png"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
