@@ -18,6 +18,7 @@ import PresentationInformation from "./Sections/PresentationInformation.vue";
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpeg";
 import wavesWhite from "@/assets/img/waves-white.svg";
+import { RouterLink } from "vue-router";
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -82,9 +83,11 @@ onUnmounted(() => {
                   environment.
                   Are you ready to go green? Let's make a difference together.
                 </p>
-
-                <a href="/pages/landing-pages/contact-us"
+                <RouterLink to="/pages/landing-pages/contact-us">
+                <a 
                   class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">Contact Us</a>
+                </RouterLink>
+        
               </div>
             </div>
           </div>
