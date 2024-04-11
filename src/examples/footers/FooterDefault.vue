@@ -88,15 +88,15 @@ defineProps({
         items: [
           {
             name: "Plan of Work Log",
-            href: "planofworklog.pdf"
+            href: "/planofworklog.pdf"
           },
           {
             name: "Copyright Checklist",
-            href: "cc.pdf"
+            href: "/cc.pdf"
           },
           {
             name: "References",
-            href: "references.pdf"
+            href: "/references.pdf"
           },
 
         ]
