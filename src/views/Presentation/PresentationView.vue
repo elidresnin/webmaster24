@@ -45,7 +45,7 @@ onUnmounted(() => {
       <span class="mask bg-gradient-dark opacity-3"></span>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
+          <div class="col-lg-6 col-md-1 d-flex justify-content-center flex-column">
             <h1 class="text-white mb-4">Greenify</h1>
             <h3 class="text-white opacity-8 lead pe-5 me-5">Save money while saving the planet.</h3>
             
