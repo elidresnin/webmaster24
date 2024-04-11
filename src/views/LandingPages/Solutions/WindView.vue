@@ -7,7 +7,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 </script>
 <template>
-  <div class="container position-sticky z-index-sticky top-0">
+  <div class=" position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
         <DefaultNavbar :sticky="true" />
@@ -15,24 +15,22 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
     </div>
   </div>
   <header>
-    <div class="page-header  min-vh-75 " style="background-color: grey;">
-      <div class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block"
-        style="background-image: url(https://www.energy.gov/sites/default/files/2019/07/f65/25897.jpg); background-size:cover;"
-        loading="lazy"></div>
+    <div class="page-header min-vh-80"
+      style="background-image: url(https://www.energy.gov/sites/default/files/2019/07/f65/25897.jpg);" loading="lazy">
+      <span class="mask bg-gradient-dark opacity-4"></span>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7 d-flex justify-content-center flex-column">
-            <div class="card card-body blur d-flex justify-content-center shadow-lg p-5 mt-5">
-              <h1>Wind</h1>
-              <p class="lead pe-5 me-5">Explore the another great Green Energy solution. Use wind to power your home.</p>
-             
-            </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-9 text-center mx-auto">
+            <h1 class="text-white mb-4">Wind Energy</h1>
+            <p class="lead text-white mb-sm-6 mb-4">Explore the another great Green Energy solution. Use wind to power
+              your home.</p>
           </div>
         </div>
       </div>
     </div>
   </header>
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-4 row align-items-center">
+
+  <div class="card card-body blur shadow-blur mx-3 mx-md-5 mt-n6 mb-4 row align-items-center">
 
     <section class="py-5">
       <div class="container">
@@ -47,7 +45,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             </div>
             <p
               class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mt-4 me-md-n2 mx-auto">
-              "The two most abundant forms of power on earth are solar and wind, and they're getting cheaper and cheaper." 
+              "The two most abundant forms of power on earth are solar and wind, and they're getting cheaper and
+              cheaper."
               <br>
               <br>
               <small>-Ed Begley, Jr.</small>
@@ -72,27 +71,24 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
             </div>
             <h3 class="mb-4">Why Wind?</h3>
-            <p>Residential wind power systems have emerged as a viable and sustainable energy solution for environmentally
-              conscious homeowners. These systems typically consist of small-scale wind turbines installed on residential
-              properties to harness the kinetic energy from the wind and convert it into electricity. While not as
-              prevalent as solar power, residential wind power offers an alternative means of generating clean energy.
-              These wind turbines, often mounted on towers, capture the wind's energy and convert it into electrical power
-              through a generator, contributing to a more diversified and eco-friendly energy mix.
+            <p>Residential wind power systems have emerged as a viable and sustainable energy solution for homeowners
+              looking to lower their carbon emissions. These systems typically consist of small-scale wind turbines
+              installed on residential
+              properties to harness the power of the wind and convert it into electricity. While not as
+              prevalent as solar power, residential wind power offers an alternative method of generating clean energy, particularly in area that get minimal sun exposure.
+              
             </p>
             <p>One of the key advantages of residential wind power is its capacity to produce electricity even during
-              periods of low sunlight, such as at night or during overcast days. This contrasts with solar power,
-              providing homeowners with a more reliable and consistent renewable energy source. As technology continues to
+              periods of low sunlight, such as at night or during overcast days. As technology continues
+              to
               advance, smaller and more efficient wind turbines are becoming available for residential use, making it
               increasingly feasible for homeowners to incorporate wind power into their energy portfolios. Additionally,
-              some regions offer incentives, tax credits, or favorable feed-in tariffs to encourage the adoption of
+              some regions offer incentives or tax credits to encourage the adoption of
               residential wind power, further promoting its accessibility and affordability.
             </p>
             <p class="mb-0 ">Apart from its environmental benefits, residential wind power systems can contribute to
               energy independence for homeowners. By generating their own electricity, homeowners may reduce their
-              reliance on traditional utility grids and, in some cases, even sell excess power back to the grid. This
-              potential for energy self-sufficiency aligns with the broader global shift towards decentralized and
-              sustainable energy solutions, empowering individuals to actively participate in the transition to a cleaner
-              and more resilient energy future.
+              reliance on traditional utility grids and, in some cases, even sell excess power back to the grid. This has the potential to save the homeowner large amounts of money over time. 
             </p>
           </div>
         </div>
@@ -125,22 +121,21 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
                 <h2 class="mb-4">Residential Wind Turbines</h2>
-                <p class="mb-2">Residential wind turbines offer homeowners a sustainable and independent source of
-                  electricity by harnessing the natural power of the wind. These compact turbines, whether mounted on
-                  rooftops or standalone towers, function as miniature wind farms, capturing the kinetic energy in the air
-                  and converting it into electricity. Suited for a variety of geographical locations, these turbines can
-                  operate in a range of wind conditions, providing a consistent and renewable energy source for individual
-                  households. While factors such as wind speed, local regulations, and available space influence their
-                  efficacy, residential wind turbines contribute to a greener lifestyle, reducing reliance on traditional
-                  power sources and potentially allowing homeowners to become energy contributors to the grid.</p>
-
-                <p>As technology evolves, modern residential wind turbines address concerns associated with noise and
-                  efficiency, making them increasingly attractive for environmentally conscious homeowners. While initial
+                <p class="mb-2">Residential wind turbines are compact turbines, that can be mounted on
+                  rooftops or standalone towers, and can function as miniature wind farms when placed in an array. These turbines can
+                  operate in a range of environments, providing a consistent, renewable energy source for
+                  individual
+                  households. Factors such as wind speed, local regulations, and available space can heavily influence the
+                  efficacy of these turbines. However, As technology evolves, modern residential wind turbines address concerns associated with noise and
+                  efficiency, making them increasingly attractive for environmentally conscious homeowners. While
+                  initial
                   costs and maintenance considerations exist, government incentives and rebates can enhance the economic
                   viability of these systems, positioning residential wind turbines as a promising option for those
-                  looking to take an active role in sustainable energy generation. As the world continues to emphasize the
+                  looking to take an active role in sustainable energy generation. As the world continues to emphasize
+                  the
                   importance of renewable energy, residential wind turbines stand as a tangible and forward-thinking
-                  solution for homeowners seeking to integrate clean, wind-powered electricity into their daily lives.</p>
+                  solution for homeowners seeking to integrate clean, wind-powered electricity into their daily lives.
+                </p>
 
 
               </div>
@@ -152,7 +147,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="blur-shadow-image">
-                    <img src="https://www.globalsources.com/STM/wp-content/uploads/IT_SOLARWINDHYBRIDSYSTEM_1200x800.jpg"
+                    <img
+                      src="https://www.globalsources.com/STM/wp-content/uploads/IT_SOLARWINDHYBRIDSYSTEM_1200x800.jpg"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
@@ -162,19 +158,22 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <p class="mb-2">Hybrid wind-solar systems represent a cutting-edge approach to sustainable energy
                   generation, combining the strengths of both wind and solar technologies to create a more reliable and
                   efficient power source. In these integrated systems, solar panels and wind turbines work together to
-                  maximize energy production. The complementary nature of wind and solar power enhances overall system
-                  performance by capturing energy during different times of the day and seasons.</p>
+                  maximize energy production. Wind and Solar energy solutions compliment each other by optimizing
+                  performance during different times of the day and seasons.</p>
 
                 <p>During daylight hours or periods of high solar exposure, solar panels generate electricity from
-                  sunlight. Simultaneously, wind turbines harness wind energy, which tends to be more prevalent during the
-                  evenings and in inclement weather. By combining these two renewable sources, hybrid systems offer a more
-                  consistent and dependable energy output, minimizing reliance on external power grids and providing a
-                  stable energy supply even when one source experiences fluctuations.</p>
+                  sunlight. Simultaneously, wind turbines harness wind energy, which tends to be more prevalent during
+                  the
+                  evenings and in inclement weather. By combining these two renewable sources, hybrid systems offer a
+                  more
+                  consistent and dependable energy source.</p>
 
                 <p>One of the key advantages of hybrid wind-solar systems is their ability to address the intermittency
-                  issues associated with standalone wind or solar installations. Battery storage can be incorporated into
+                  issues associated with standalone wind or solar installations. Battery storage can be incorporated
+                  into
                   these systems to store excess energy generated during peak production times for use during low
-                  production periods. This innovative integration not only ensures a more continuous power supply but also
+                  production periods. This innovative integration not only ensures a more continuous power supply but
+                  also
                   enhances the system's overall efficiency and reliability. As technology advances, hybrid wind-solar
                   systems continue to gain popularity as a versatile and sustainable solution for individuals and
                   businesses seeking resilient and eco-friendly energy alternatives.</p>
@@ -198,8 +197,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="accordion" id="accordionRental">
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingOne">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
                     How does residential wind power work?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -218,8 +218,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
                     What factors determine the feasibility of residential wind power?
 
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
@@ -242,8 +243,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingThree">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
                     Can residential wind turbines operate in all weather conditions?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -254,7 +256,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   <div class=" text-sm text-dark mt-1">
                     <p>
                       Yes, residential wind turbines are designed to operate in a range of weather conditions. They can
-                      generate electricity in varying wind speeds, with some models equipped to withstand adverse weather,
+                      generate electricity in varying wind speeds, with some models equipped to withstand adverse
+                      weather,
                       ensuring a continuous power supply.
                     </p>
                   </div>
@@ -262,8 +265,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingFour">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
                     How much energy can a residential wind turbine generate?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -282,8 +286,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingFifth">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false"
+                    aria-controls="collapseFifth">
                     What is the lifespan of a residential wind turbine?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -293,8 +298,10 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Residential wind turbines typically have a lifespan of 20 to 25 years, but with proper maintenance,
-                      they can continue to function effectively for a more extended period. Regular inspections and upkeep
+                      Residential wind turbines typically have a lifespan of 20 to 25 years, but with proper
+                      maintenance,
+                      they can continue to function effectively for a more extended period. Regular inspections and
+                      upkeep
                       contribute to maximizing their operational life.</p>
 
 
@@ -304,8 +311,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingsix">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseFifth">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false"
+                    aria-controls="collapseFifth">
                     Are there government incentives for residential wind power installations?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -324,8 +332,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="heading7">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
+                    aria-controls="collapse7">
                     Can residential wind power systems be integrated with the grid?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -351,6 +360,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 
 
-</div>
+  </div>
 
-<DefaultFooter /></template>
+  <DefaultFooter />
+</template>

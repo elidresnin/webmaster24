@@ -7,7 +7,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 </script>
 <template>
-  <div class="container position-sticky z-index-sticky top-0">
+  <div class=" position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
         <DefaultNavbar :sticky="true" />
@@ -15,24 +15,23 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
     </div>
   </div>
   <header>
-    <div class="page-header  min-vh-75 " style="background-color: grey;">
-      <div class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block"
-        style="background-image: url(https://www.jups.co.za/wp-content/uploads/2021/10/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpeg); background-size:cover;"
-        loading="lazy"></div>
+
+    <div class="page-header min-vh-80"
+      style="background-image: url(https://www.jups.co.za/wp-content/uploads/2021/10/GettyImages-1278948452-e1fdce3baef44af28f449ab36d6717f3.jpeg);"
+      loading="lazy">
+      <span class="mask bg-gradient-dark opacity-4"></span>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7 d-flex justify-content-center flex-column">
-            <div class="card card-body blur d-flex justify-content-center shadow-lg p-5 mt-5">
-              <h1>Solar</h1>
-              <p class="lead pe-5 me-5">Explore the most common Green Energy solution. Use the sun to power your home.</p>
-              
-            </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-9 text-center mx-auto">
+            <h1 class="text-white mb-4">Solar Energy</h1>
+            <p class="lead text-white mb-sm-6 mb-4">Explore the most common Green Energy solution. Use the sun to power
+              your home.</p>
           </div>
         </div>
       </div>
     </div>
   </header>
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-4 row align-items-center">
+  <div class="card card-body blur shadow-blur mx-3 mx-md-5 mt-n6 mb-4 row align-items-center">
 
     <section class="py-5">
       <div class="container">
@@ -47,7 +46,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             </div>
             <p
               class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mt-4 me-md-n2 mx-auto">
-              “We have this handy fusion reactor in the sky called the sun; you don’t have to do anything, it just works.
+              “We have this handy fusion reactor in the sky called the sun; you don’t have to do anything, it just
+              works.
               It shows up every day.”
               <br>
               <br>
@@ -73,27 +73,30 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
             </div>
             <h3 class="mb-4">Why go Solar?</h3>
-            <p>Residential solar power systems have gained significant popularity in recent years as environmentally
-              conscious homeowners seek sustainable and cost-effective alternatives to traditional energy sources. These
-              systems harness energy from the sun using photovoltaic (PV) panels installed on rooftops or other suitable
-              locations. As sunlight strikes the panels, it stimulates the movement of electrons, generating direct
-              current (DC) electricity. This DC electricity is then converted into alternating current (AC) by an
-              inverter, making it compatible with household appliances and the electric grid.
+            <p>Solar power is the process of photovoltaic (PV) cells capturing and converting light to usable energy.
+              Individual cells are put together to form solar panels, and can be anywhere that has exposure to sunlight.
+              They work in a number of
+              climates as long as they are exposed to sunlight during most of the day. They can be placed on roofs that
+              are sturdy and in good shape
+              or open fields. The best placement for a solar panel is angled south if in the northern hemisphere and
+              angled north in the southern hemisphere.
+
             </p>
-            <p>One of the primary advantages of residential solar is its potential to reduce or even eliminate dependence
-              on traditional utility grids. Homeowners can produce their own clean energy, leading to decreased reliance
-              on fossil fuels and a reduced carbon footprint. Additionally, many governments and utilities offer
-              incentives, tax credits, or net metering programs to encourage the adoption of residential solar systems,
-              making the initial investment more accessible and financially appealing. As technology advances, the
-              efficiency of solar panels has increased, and costs have decreased, further contributing to the growing
-              popularity of residential solar power.
+            <p>Solar panels work by converting energy from the sun into power. This can come in two forms, electricity
+              and heat. Solar panels are usually made from silicon, or another semiconductor material installed in a
+              metal panel frame with a glass casing. When this material is exposed to photons of sunlight it releases
+              electrons and produces an electric charge. This photovoltaic effect (PV) charge creates an electric
+              current, which is captured by the wiring in solar panels. It is then converted into an alternating current
+              by an inverter.
+
             </p>
-            <p class="mb-0 ">Beyond the environmental and financial benefits, residential solar installations also enhance
+            <p class="mb-0 ">Beyond the environmental benefits, residential solar installations also
+              enhance
               the value of a property. Homes equipped with solar panels are often viewed as more attractive to potential
-              buyers, and studies have shown that solar-equipped homes tend to sell faster and at higher prices than their
-              non-solar counterparts. As the world shifts towards a more sustainable future, residential solar power
-              stands as a key player in empowering individuals to contribute to cleaner energy practices while enjoying
-              long-term economic advantages.
+              buyers, and studies have shown that solar-equipped homes tend to sell faster and at higher prices than
+              their
+              non-solar counterparts. One study by Lawrence Berkeley National Laboratory showed that on average, solar increased the value of a home by about $15,000. 
+
             </p>
           </div>
         </div>
@@ -118,13 +121,14 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="d-block blur-shadow-image">
-                    <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/10/Screen_Shot_2022-10-14_at_11.14.34_AM.png"
+                    <img
+                      src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/10/Screen_Shot_2022-10-14_at_11.14.34_AM.png"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Hybrid On-Grid/Off-Grid Systems</h2>
+                <h2 class="mb-4">Hybrid Solar Systems </h2>
                 <p class="mb-2">As the name suggests, a hybrid solar system is simply a combination of on-grid and
                   off-grid systems. Similar to an on-grid solar system, a hybrid solar power system is connected to the
                   utility power grid. </p>
@@ -140,7 +144,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <p>If there is not enough energy in the battery, the house will then take electricity from the grid.
                 </p>
                 <p>
-                  Keep in mind that hybrid systems are more expensive than grid-tied systems due to the added battery and
+                  Keep in mind that hybrid systems are more expensive than grid-tied systems due to the added battery
+                  and
                   installation costs. On the other hand, they are much cheaper than off-grid solar systems. The main
                   benefit of a hybrid solar system is that you will have power in any situation.
                 </p>
@@ -165,7 +170,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   photovoltaic systems, solar water heaters utilize sunlight to heat a fluid within solar collectors. .
                 </p>
 
-                <p>Known for their reliability and energy-saving capabilities, solar water heaters come in various types,
+                <p>Solar Water Heaters are known for their reliability and energy-saving capabilities, and they come in various
+                  types,
                   with the most common being passive and active systems. Passive systems rely on natural convection to
                   circulate the heated water, while active systems use pumps to facilitate fluid movement.</p>
 
@@ -176,7 +182,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   takes over to ensure a continuous and reliable hot water supply.
                 </p>
                 <p>
-                  This flexibility ensures that homeowners benefit from solar energy whenever possible, reducing reliance
+                  This flexibility ensures that homeowners benefit from solar energy whenever possible, reducing
+                  reliance
                   on conventional energy sources.
                 </p>
               </div>
@@ -198,8 +205,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="accordion" id="accordionRental">
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingOne">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
                     How do residential solar panels work?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -217,8 +225,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
                     What factors determine the efficiency of a residential solar system?
 
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
@@ -239,8 +248,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingThree">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
                     How much space do I need for residential solar panels? <i
                       class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -251,7 +261,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   <div class=" text-sm text-dark mt-1">
                     <p>
                       The space required for residential solar panels depends on factors like energy consumption, panel
-                      efficiency, and local sunlight conditions. On average, a 1 kW solar system may need about 100 square
+                      efficiency, and local sunlight conditions. On average, a 1 kW solar system may need about 100
+                      square
                       feet of roof space.
 
                     </p>
@@ -260,8 +271,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingFour">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
                     What is net metering, and how does it benefit residential solar users? <i
                       class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -280,8 +292,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingFifth">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false"
+                    aria-controls="collapseFifth">
                     What is the lifespan of residential solar panels?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -292,7 +305,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   <div class=" text-sm text-dark mt-1">
                     <p>
                       Most residential solar panels come with warranties ranging from 25 to 30 years. While panels may
-                      continue to produce energy well beyond this period, their efficiency gradually decreases over time.
+                      continue to produce energy well beyond this period, their efficiency gradually decreases over
+                      time.
                     </p>
                   </div>
                 </div>
@@ -300,8 +314,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingsix">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseFifth">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false"
+                    aria-controls="collapseFifth">
                     How do I finance a residential solar installation?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -320,8 +335,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="heading7">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
+                    aria-controls="collapse7">
                     Can residential solar panels function during power outages?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -331,21 +347,24 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Typically, grid-tied solar systems shut down during power outages to prevent backfeeding electricity
-                      into the grid. However, with the addition of battery storage systems, some setups can provide backup
+                      Typically, grid-tied solar systems shut down during power outages to prevent backfeeding
+                      electricity
+                      into the grid. However, with the addition of battery storage systems, some setups can provide
+                      backup
                       power to essential appliances, ensuring continuity during outages. </p>
                   </div>
                 </div>
 
               </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  
-</div>
 
-<DefaultFooter /></template>
+  </div>
+
+  <DefaultFooter />
+</template>

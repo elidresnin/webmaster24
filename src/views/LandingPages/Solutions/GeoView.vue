@@ -7,7 +7,7 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 </script>
 <template>
-  <div class="container position-sticky z-index-sticky top-0">
+  <div class=" position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
         <DefaultNavbar :sticky="true" />
@@ -15,25 +15,21 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
     </div>
   </div>
   <header>
-    <div class="page-header  min-vh-75 " style="background-color: grey;">
-      <div class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block"
-        style="background-image: url(https://electrek.co/wp-content/uploads/sites/3/2022/11/geothermal-iceland.jpg?quality=82&strip=all&w=1600); background-size:cover;"
-        loading="lazy"></div>
+    <div class="page-header min-vh-80"
+      style="background-image: url(https://electrek.co/wp-content/uploads/sites/3/2022/11/geothermal-iceland.jpg?quality=82&strip=all&w=1600);"
+      loading="lazy">
+      <span class="mask bg-gradient-dark opacity-4"></span>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7 d-flex justify-content-center flex-column">
-            <div class="card card-body blur d-flex justify-content-center shadow-lg p-5 mt-5">
-              <h1>Geothermal</h1>
-              <p class="lead pe-5 me-5">Explore another great Green Energy solution. Use the heat in the Earth to power
-                your home.</p>
-              
-            </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-sm-9 text-center mx-auto">
+            <h1 class="text-white mb-4">Geothermal Energy</h1>
+            <p class="lead text-white mb-sm-6 mb-4">Explore another great Green Energy solution. Use the heat in the Earth to power your home.</p>
           </div>
         </div>
       </div>
     </div>
   </header>
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-4 row align-items-center">
+  <div class="card card-body blur shadow-blur mx-3 mx-md-5 mt-n6 mb-4 row align-items-center">
 
     <section class="py-5">
       <div class="container">
@@ -48,7 +44,8 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             </div>
             <p
               class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mt-4 me-md-n2 mx-auto">
-              “We have this handy fusion reactor in the sky called the sun; you don’t have to do anything, it just works.
+              “We have this handy fusion reactor in the sky called the sun; you don’t have to do anything, it just
+              works.
               It shows up every day.”
               <br>
               <br>
@@ -74,24 +71,23 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
             </div>
             <h3 class="mb-4">Why Geothermal?</h3>
-            <p>Residential geothermal solutions harness the Earth's natural heat to provide an efficient, sustainable, and
-              eco-friendly source of heating, cooling, and hot water for homes. Unlike traditional heating and cooling
-              systems that rely on burning fossil fuels or electricity, geothermal systems tap into the consistent
-              temperature of the Earth's subsurface. These systems use a network of pipes, known as a ground loop, buried
-              in the ground to transfer heat to or from the Earth, depending on the season.
+            <p>Geothermal energy is energy that originates from the Earth in the form of heat. Water that is at high
+              temperatures due to the natural heat of the Earth is drawn from wells, and can then be harnessed to
+              provide electricity. Geothermal energy is renewable and clean, unlike fossil fuels. It does not produce
+              any greenhouse gasses, and will always be available, as the source of energy is the Earth’s core.
+              Geothermal energy can be harnessed at any time, as it doesn’t depend on weather conditions. Because of
+              this, geothermal energy sources can be used to produce electricity 24/7. Geothermal energy is simple to be
+              incorporated into buildings that are already standing, due to the fact that they require a relatively
+              small amount of land per gigawatt-hour of 404 sq. m, compared to other energy sources, including coal
+              (3,642 sq. m), wind (1335 sq. m), and solar-power (3237 sq. m).
+
             </p>
-            <p>During the winter, the geothermal system absorbs heat from the ground and transfers it into the home,
-              providing warmth. In the summer, the process is reversed, with the system pulling heat from the home and
-              depositing it into the cooler ground, effectively providing air conditioning. This geothermal exchange
-              allows for a highly efficient and constant source of temperature control throughout the year, reducing the
-              reliance on external energy sources.
+            <p class="lead">
+              For property placed in service before January 1, 2033, tax credit equivalent to 30% of the cost of the
+              pump can be gained for geothermal heat pumps.
+
             </p>
-            <p class="mb-0 ">Residential geothermal solutions offer numerous benefits, including lower energy bills,
-              reduced greenhouse gas emissions, and increased home comfort. While the initial installation costs may be
-              higher compared to traditional systems, these are often offset by long-term energy savings and potential
-              government incentives. With advancements in technology and growing environmental awareness, geothermal
-              solutions continue to gain popularity as an effective and sustainable alternative for homeowners seeking
-              reliable and energy-efficient heating and cooling solutions.
+            <p class="mb-0 ">
             </p>
           </div>
         </div>
@@ -123,19 +119,21 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
                 <h2 class="mb-4">Geothermal Heat Pumps</h2>
-                <p class="mb-2">Geothermal heat pumps (GHPs) exemplify a forward-thinking approach to residential climate
-                  control, utilizing the Earth's natural thermal energy for efficient heating and cooling. The heart of a
-                  GHP system lies in its ground loop, a network of pipes buried underground that capitalizes on the
-                  Earth's consistent temperature. In winter, the system extracts heat from the ground to warm the home,
-                  while in summer, it expels excess heat back into the ground to provide cooling. This renewable and
-                  constant heat source allows GHPs to achieve impressive energy efficiencies, significantly reducing
-                  reliance on traditional heating and cooling methods and minimizing environmental impact.</p>
+                <p class="mb-2">GHPs are an extremely convenient use of geothermal energy. We are able to reach sources
+                  of this energy without drilling nearly as deep into the ground as is required by oil and gas wells,
+                  and the system is relatively simple. In GHPs, water is cycled through a loop that is partially
+                  contained below ground and partially contained in the area that is to be heated. When the water goes
+                  below-ground, it is heated by pockets of geothermal energy. Then, when it is cycled aboveground, the
+                  heat is released to warm the surrounding area. The same system can be applied to the heating of water.
+                </p>
 
-                <p>The exceptional energy efficiency of geothermal heat pumps not only translates into lower utility bills
+                <p>The exceptional energy efficiency of geothermal heat pumps not only translates into lower utility
+                  bills
                   for homeowners but also contributes to a greener and more sustainable living. Despite the initial
                   investment being higher than conventional HVAC systems, the long-term savings, coupled with potential
                   government incentives, make GHPs an economically viable and environmentally responsible choice. As
-                  technology advances and awareness of eco-friendly alternatives grows, geothermal heat pumps emerge as a
+                  technology advances and awareness of eco-friendly alternatives grows, geothermal heat pumps emerge as
+                  a
                   compelling solution for homeowners seeking reliable, energy-efficient, and environmentally conscious
                   climate control solutions.</p>
 
@@ -149,29 +147,27 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               <div class="col-lg-6 justify-content-center d-flex flex-column">
                 <div class="card border-radius-lg">
                   <div class="blur-shadow-image">
-                    <img src="https://d33wubrfki0l68.cloudfront.net/ece52de121797642d95e774406e964af155b5067/aba5d/static/106e2cfe4463fabf123843ec339812c8/5338b/geothermal-heat-pump.jpg"
+                    <img
+                      src="https://d33wubrfki0l68.cloudfront.net/ece52de121797642d95e774406e964af155b5067/aba5d/static/106e2cfe4463fabf123843ec339812c8/5338b/geothermal-heat-pump.jpg"
                       alt="img-blur-shadow-blog-2" class="img-fluid border-radius-lg">
                   </div>
                 </div>
               </div>
               <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
-                <h2 class="mb-4">Geothermal Hot Water Systems</h2>
-                <p class="mb-2">Geothermal water heating harnesses the Earth's internal heat to provide a reliable and
-                  energy-efficient source for residential hot water needs. In this system, a geothermal heat pump extracts
-                  heat from the ground or a water source and transfers it to a water heater for domestic use. This process
-                  is remarkably efficient, as the Earth's consistent subsurface temperature allows for consistent water
-                  heating throughout the year. Unlike traditional water heaters that rely on electricity or gas,
-                  geothermal water heating systems significantly reduce energy consumption and contribute to lowering
-                  overall carbon footprints.
+                <h2 class="mb-4">Geothermal Power Plants</h2>
+                <p class="mb-2">Dry-Steam: In regions where there are natural sources of steam underground, it can be
+                  funneled directly to power plants, where it can fuel turbines to produce electricity. However, these
+                  naturally-occurring sources of steam are rare.
                 </p>
 
-                <p>One of the standout features of geothermal water heating is its versatility. Whether integrated with a
-                  geothermal heat pump for comprehensive home climate control or employed as a standalone system dedicated
-                  to water heating, this technology offers a sustainable alternative to conventional methods. Homeowners
-                  opting for geothermal water heating not only benefit from reduced energy bills but also align with the
-                  global shift towards environmentally friendly and energy-efficient solutions. As interest in renewable
-                  technologies grows, geothermal water heating stands out as a reliable and eco-conscious choice for
-                  households seeking a sustainable and cost-effective approach to meeting their hot water needs.
+                <p>
+                  Flash-Steam: Flash-steam power plants use hot water from beneath the surface of the Earth to create
+                  steam, which can then be used to fuel turbines.
+                </p>
+                <p>
+                  Binary Cycle: These power plants use hot water to create steam from liquids that have lower boiling
+                  points than water, meaning that it doesn't require as much heat to produce steam.
+
                 </p>
 
               </div>
@@ -193,8 +189,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
             <div class="accordion" id="accordionRental">
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingOne">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
                     What is geothermal energy?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -203,15 +200,18 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Geothermal energy is a renewable and sustainable form of power derived from the Earth's internal heat. This energy source is harnessed through various technologies to generate electricity or provide heating and cooling for residential, commercial, and industrial applications.
+                      Geothermal energy is a renewable and sustainable form of power derived from the Earth's internal
+                      heat. This energy source is harnessed through various technologies to generate electricity or
+                      provide heating and cooling for residential, commercial, and industrial applications.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
                     How is geothermal energy generated?
 
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
@@ -222,7 +222,10 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Geothermal energy is generated by tapping into the Earth's internal heat through the use of geothermal heat pumps or geothermal power plants. The heat from the Earth's interior is transferred to the surface and converted into electricity or used directly for heating and cooling purposes.
+                      Geothermal energy is generated by tapping into the Earth's internal heat through the use of
+                      geothermal heat pumps or geothermal power plants. The heat from the Earth's interior is
+                      transferred to the surface and converted into electricity or used directly for heating and cooling
+                      purposes.
 
                     </p>
                   </div>
@@ -230,8 +233,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingThree">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
                     What are the environmental benefits of geothermal energy?<i
                       class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -241,7 +245,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Geothermal energy is environmentally friendly, producing significantly lower greenhouse gas emissions compared to fossil fuels. It has a minimal impact on air quality and water resources, making it a clean and sustainable alternative that helps combat climate change.
+                      Geothermal energy is environmentally friendly, producing significantly lower greenhouse gas
+                      emissions compared to fossil fuels. It has a minimal impact on air quality and water resources,
+                      making it a clean and sustainable alternative that helps combat climate change.
 
                     </p>
                   </div>
@@ -249,8 +255,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingFour">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
                     Where is geothermal energy most commonly used?<i
                       class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -260,7 +267,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Geothermal energy is utilized globally, with prominent usage in countries situated along tectonic plate boundaries, such as Iceland, the United States, Philippines, and New Zealand. These regions benefit from abundant geothermal resources.
+                      Geothermal energy is utilized globally, with prominent usage in countries situated along tectonic
+                      plate boundaries, such as Iceland, the United States, Philippines, and New Zealand. These regions
+                      benefit from abundant geothermal resources.
 
                     </p>
                   </div>
@@ -268,8 +277,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingFifth">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false"
+                    aria-controls="collapseFifth">
                     Can geothermal energy be used for residential heating and cooling?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -279,7 +289,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Yes, geothermal energy is widely used for residential heating and cooling through geothermal heat pump systems. These systems transfer heat to or from the ground to regulate indoor temperatures efficiently and sustainably.
+                      Yes, geothermal energy is widely used for residential heating and cooling through geothermal heat
+                      pump systems. These systems transfer heat to or from the ground to regulate indoor temperatures
+                      efficiently and sustainably.
                     </p>
                   </div>
                 </div>
@@ -287,8 +299,9 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="headingsix">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseFifth">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false"
+                    aria-controls="collapseFifth">
                     What is the lifespan of a geothermal power plant?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -298,15 +311,18 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Geothermal power plants have a long lifespan, typically exceeding 25 years. With proper maintenance, these plants can operate efficiently for several decades, providing a reliable and consistent source of electricity.</p>
+                      Geothermal power plants have a long lifespan, typically exceeding 25 years. With proper
+                      maintenance, these plants can operate efficiently for several decades, providing a reliable and
+                      consistent source of electricity.</p>
                   </div>
                 </div>
 
               </div>
               <div class="accordion-item mb-3">
                 <h5 class="accordion-header" id="heading7">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
+                    aria-controls="collapse7">
                     Are there financial incentives for adopting geothermal energy?
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -316,19 +332,22 @@ import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
                   data-bs-parent="#accordionRental">
                   <div class=" text-sm text-dark mt-1">
                     <p>
-                      Many governments offer financial incentives, tax credits, and rebates to encourage the adoption of geothermal energy systems. These incentives can offset installation costs, making geothermal technologies more economically attractive for homeowners and businesses. </p>
+                      Many governments offer financial incentives, tax credits, and rebates to encourage the adoption of
+                      geothermal energy systems. These incentives can offset installation costs, making geothermal
+                      technologies more economically attractive for homeowners and businesses. </p>
                   </div>
                 </div>
 
               </div>
             </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
 
-</div>
+  </div>
 
-<DefaultFooter /></template>
+  <DefaultFooter />
+</template>
