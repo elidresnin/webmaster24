@@ -94,6 +94,10 @@ defineProps({
             name: "Copyright Checklist",
             href: "cc.pdf"
           },
+          {
+            name: "References",
+            href: "references.pdf"
+          },
 
         ]
       }
