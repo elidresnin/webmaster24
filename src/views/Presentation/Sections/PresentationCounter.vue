@@ -11,7 +11,7 @@ import DefaultCounterCard from "../../../examples/cards/counterCards/DefaultCoun
             <div class="col-md-4 position-relative">
               <DefaultCounterCard
                 color="success"
-                title="of homes in the US are powered by renewable sources"
+                title="Of homes in the US are powered by renewable sources"
                 description="in 2024, according to the USEIA"
                 :count="21"
                 suffix="%"

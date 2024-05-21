@@ -11,13 +11,13 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
           <div class="row justify-content-start">
             <DefaultInfoCard color="info" icon="public" title="Global"
               description="Renewable energy is trusted around the world, contributing to lower carbon emissions." />
-            <DefaultInfoCard color="info" icon="payments" title="Cost-cutting"
-              description="Renewable energy not only lowers your electric and utility bills, but enables you to claim governmental incentives and tax benefits." />
+            <DefaultInfoCard color="info" icon="payments" title="Cost-effective"
+              description="Renewable energy not only lowers your electric and utility bills, but also enables you to claim governmental incentives and tax benefits." />
           </div>
           <div class="row justify-content-start mt-4">
             <DefaultInfoCard color="info" icon="apps" title="Integrated"
-              description="Renewable energy sources can integrate with the existing grid, or be totally off grid." />
-            <DefaultInfoCard color="info" icon="3p" title="Community"
+              description="Renewable energy sources can be integrated with or without an existing power grid." />
+            <DefaultInfoCard color="info" icon="3p" title="Communal"
               description="Join a commuity of people looking to preserve our planet." />
           </div>
         </div>
@@ -31,7 +31,10 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
             </div>
             <div class="card-body text-center">
               <h5 class="font-weight-normal">
-                <a href="/pages/solutions/geothermal">Learn about Geothermal solutions</a>
+                <a href="/pages/solutions/geothermal"></a>
+                <RouterLink to="/pages/solutions/geothermal">
+
+                  Learn about Geothermal solutions</RouterLink>
               </h5>
               <p class="mb-0">
                 "Geothermal solutions can replace your boiler, saving you money on both gas and electricty."

@@ -38,7 +38,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               <div class="card-body pt-7 text-center">
                 <h3 class="text-white" >Solar</h3>
                 <p class="text-white opacity-8">
-                  "Learn how we provide homeowners with the knowledge and resources to embrace a cleaner, more sustainable energy source. Take the first step toward a brighter future – harness the sun's power and transform your home into a beacon of renewable energy"
+                  Learn how we provide homeowners with the knowledge and resources to embrace a cleaner, more sustainable energy source. Take the first step toward a brighter future – harness the sun's power and transform your home into a beacon of renewable energy.
                 </p>
                 <div class="buttons-group">
                   <RouterLink to="/pages/solutions/solar">

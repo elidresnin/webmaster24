@@ -98,7 +98,7 @@ onUnmounted(() => {
           </div>
           <div class="col-md-5 me-auto my-auto ms-md-5">
             <p class="lead mb-0">
-              The urgency for renewable energy stems from the environmental challenges posed by traditional fossil fuels, such as air pollution, climate change, and finite resource depletion. By harnessing the power of sources like solar, wind, and geothermal, we can reduce our carbon footprint, decrease reliance on non-renewable resources, and mitigate the impacts of climate change.
+              The urgency for renewable energy stems from the environmental challenges posed by traditional fossil fuels, leading to air pollution, climate change, and finite resource depletion. By harnessing the power of sources like solar, wind, and geothermal, we can reduce our carbon footprint, decrease reliance on non-renewable resources, and mitigate the impacts of climate change.
             </p>
           </div>
         </div>

@@ -8,16 +8,16 @@ import DefaultReviewCard from "@/examples/cards/reviewCards/DefaultReviewCard.vu
         <div class="col-lg-6 mx-auto text-center">
           <h2 class="mb-0">Join the movement.</h2>
           <h2 class="text-gradient text-success mb-3">
-            Hear from Real People who made the switch to sustainable energy.
+            Hear from real people who made the switch to sustainable energy.
           </h2>
           <p class="lead">
-            Hundreds of thousands of Americans have reaped the benefits of going green.
+            Hundreds of thousands of Americans have enjoyed the benefits of going green.
           </p>
         </div>
       </div>
       <div class="row mt-6">
         <DefaultReviewCard
-          name="Penelope Cohen"
+          name="Bole Ying"
           date="1 day ago"
           review='"Residential solar has transformed our energy consumption, resulting in substantial cost savings and a reduced environmental impact. The installation process was seamless, and we now enjoy the dual benefits of lower electricity bills and a cleaner conscience. Embracing residential solar power has proven to be a positive and sustainable choice for our home."'
           :rating="5.0"
